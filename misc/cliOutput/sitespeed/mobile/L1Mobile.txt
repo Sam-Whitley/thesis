@@ -1,0 +1,605 @@
+$ sitespeed.io http://192.168.100.157/ --cpu --visualElements -n 100 --name L1Mobile --urlAlias L1Mobile --android
+[2023-04-13 12:56:51] INFO: Versions OS: win32 10.0.22621 nodejs: v18.14.2 sitespeed.io: 27.3.0 browsertime: 17.8.0 coach: 7.1.3
+[2023-04-13 12:56:52] INFO: Run tests on GM1913 [d75776c4] using Android version 12
+[2023-04-13 12:56:52] INFO: Running tests using Chrome - 100 iteration(s)
+[2023-04-13 12:56:54] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 12:56:57] INFO: Testing url http://192.168.100.157/ iteration 1
+[2023-04-13 12:57:04] INFO: Take after page complete check screenshot
+[2023-04-13 12:57:06] INFO: Take cumulative layout shift screenshot
+[2023-04-13 12:57:08] INFO: Take largest contentful paint screenshot
+[2023-04-13 12:57:12] INFO: http://192.168.100.157/ TTFB: 228ms DOMContentLoaded: 603ms firstPaint: 483ms FCP: 483ms LCP: 583ms Load: 604ms
+[2023-04-13 12:57:14] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 12:57:16] INFO: Testing url http://192.168.100.157/ iteration 2
+[2023-04-13 12:57:23] INFO: Take after page complete check screenshot
+[2023-04-13 12:57:25] INFO: Take cumulative layout shift screenshot
+[2023-04-13 12:57:27] INFO: Take largest contentful paint screenshot
+[2023-04-13 12:57:32] INFO: http://192.168.100.157/ TTFB: 371ms DOMContentLoaded: 811ms firstPaint: 673ms FCP: 673ms LCP: 862ms Load: 1.05s
+[2023-04-13 12:57:34] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 12:57:36] INFO: Testing url http://192.168.100.157/ iteration 3
+[2023-04-13 12:57:43] INFO: Take after page complete check screenshot
+[2023-04-13 12:57:45] INFO: Take cumulative layout shift screenshot
+[2023-04-13 12:57:47] INFO: Take largest contentful paint screenshot
+[2023-04-13 12:57:52] INFO: http://192.168.100.157/ TTFB: 339ms DOMContentLoaded: 675ms firstPaint: 529ms FCP: 529ms LCP: 696ms Load: 677ms
+[2023-04-13 12:57:54] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 12:57:56] INFO: Testing url http://192.168.100.157/ iteration 4
+[2023-04-13 12:58:03] INFO: Take after page complete check screenshot
+[2023-04-13 12:58:05] INFO: Take cumulative layout shift screenshot
+[2023-04-13 12:58:07] INFO: Take largest contentful paint screenshot
+[2023-04-13 12:58:11] INFO: http://192.168.100.157/ TTFB: 344ms DOMContentLoaded: 643ms firstPaint: 528ms FCP: 528ms LCP: 673ms Load: 645ms
+[2023-04-13 12:58:13] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 12:58:15] INFO: Testing url http://192.168.100.157/ iteration 5
+[2023-04-13 12:58:23] INFO: Take after page complete check screenshot
+[2023-04-13 12:58:25] INFO: Take cumulative layout shift screenshot
+[2023-04-13 12:58:26] INFO: Take largest contentful paint screenshot
+[2023-04-13 12:58:31] INFO: http://192.168.100.157/ TTFB: 275ms DOMContentLoaded: 589ms firstPaint: 493ms FCP: 493ms LCP: 605ms Load: 591ms
+[2023-04-13 12:58:33] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 12:58:35] INFO: Testing url http://192.168.100.157/ iteration 6
+[2023-04-13 12:58:42] INFO: Take after page complete check screenshot
+[2023-04-13 12:58:44] INFO: Take cumulative layout shift screenshot
+[2023-04-13 12:58:46] INFO: Take largest contentful paint screenshot
+[2023-04-13 12:58:51] INFO: http://192.168.100.157/ TTFB: 285ms DOMContentLoaded: 619ms firstPaint: 505ms FCP: 505ms LCP: 660ms Load: 640ms
+[2023-04-13 12:58:53] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 12:58:55] INFO: Testing url http://192.168.100.157/ iteration 7
+[2023-04-13 12:59:02] INFO: Take after page complete check screenshot
+[2023-04-13 12:59:04] INFO: Take cumulative layout shift screenshot
+[2023-04-13 12:59:06] INFO: Take largest contentful paint screenshot
+[2023-04-13 12:59:11] INFO: http://192.168.100.157/ TTFB: 352ms DOMContentLoaded: 658ms firstPaint: 562ms FCP: 562ms LCP: 684ms Load: 660ms
+[2023-04-13 12:59:12] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 12:59:15] INFO: Testing url http://192.168.100.157/ iteration 8
+[2023-04-13 12:59:22] INFO: Take after page complete check screenshot
+[2023-04-13 12:59:24] INFO: Take cumulative layout shift screenshot
+[2023-04-13 12:59:25] INFO: Take largest contentful paint screenshot
+[2023-04-13 12:59:30] INFO: http://192.168.100.157/ TTFB: 278ms DOMContentLoaded: 571ms firstPaint: 463ms FCP: 463ms LCP: 552ms Load: 573ms
+[2023-04-13 12:59:32] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 12:59:34] INFO: Testing url http://192.168.100.157/ iteration 9
+[2023-04-13 12:59:41] INFO: Take after page complete check screenshot
+[2023-04-13 12:59:43] INFO: Take cumulative layout shift screenshot
+[2023-04-13 12:59:45] INFO: Take largest contentful paint screenshot
+[2023-04-13 12:59:50] INFO: http://192.168.100.157/ TTFB: 268ms DOMContentLoaded: 539ms firstPaint: 439ms FCP: 439ms LCP: 572ms Load: 542ms
+[2023-04-13 12:59:52] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 12:59:54] INFO: Testing url http://192.168.100.157/ iteration 10
+[2023-04-13 13:00:01] INFO: Take after page complete check screenshot
+[2023-04-13 13:00:03] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:00:05] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:00:09] INFO: http://192.168.100.157/ TTFB: 316ms DOMContentLoaded: 602ms firstPaint: 528ms FCP: 528ms LCP: 640ms Load: 604ms
+[2023-04-13 13:00:11] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:00:13] INFO: Testing url http://192.168.100.157/ iteration 11
+[2023-04-13 13:00:20] INFO: Take after page complete check screenshot
+[2023-04-13 13:00:22] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:00:24] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:00:29] INFO: http://192.168.100.157/ TTFB: 338ms DOMContentLoaded: 705ms firstPaint: 586ms FCP: 586ms LCP: 753ms Load: 981ms
+[2023-04-13 13:00:31] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:00:33] INFO: Testing url http://192.168.100.157/ iteration 12
+[2023-04-13 13:00:40] INFO: Take after page complete check screenshot
+[2023-04-13 13:00:42] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:00:44] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:00:49] INFO: http://192.168.100.157/ TTFB: 306ms DOMContentLoaded: 633ms firstPaint: 508ms FCP: 508ms LCP: 652ms Load: 635ms
+[2023-04-13 13:00:51] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:00:53] INFO: Testing url http://192.168.100.157/ iteration 13
+[2023-04-13 13:01:00] INFO: Take after page complete check screenshot
+[2023-04-13 13:01:02] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:01:04] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:01:09] INFO: http://192.168.100.157/ TTFB: 262ms DOMContentLoaded: 562ms firstPaint: 494ms FCP: 494ms LCP: 611ms Load: 564ms
+[2023-04-13 13:01:10] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:01:12] INFO: Testing url http://192.168.100.157/ iteration 14
+[2023-04-13 13:01:20] INFO: Take after page complete check screenshot
+[2023-04-13 13:01:22] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:01:23] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:01:28] INFO: http://192.168.100.157/ TTFB: 258ms DOMContentLoaded: 547ms firstPaint: 428ms FCP: 428ms LCP: 573ms Load: 549ms
+[2023-04-13 13:01:30] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:01:32] INFO: Testing url http://192.168.100.157/ iteration 15
+[2023-04-13 13:01:39] INFO: Take after page complete check screenshot
+[2023-04-13 13:01:41] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:01:43] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:01:48] INFO: http://192.168.100.157/ TTFB: 325ms DOMContentLoaded: 613ms firstPaint: 518ms FCP: 518ms LCP: 651ms Load: 616ms
+[2023-04-13 13:01:49] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:01:52] INFO: Testing url http://192.168.100.157/ iteration 16
+[2023-04-13 13:01:59] INFO: Take after page complete check screenshot
+[2023-04-13 13:02:01] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:02:03] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:02:07] INFO: http://192.168.100.157/ TTFB: 336ms DOMContentLoaded: 659ms firstPaint: 540ms FCP: 540ms LCP: 662ms Load: 661ms
+[2023-04-13 13:02:09] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:02:11] INFO: Testing url http://192.168.100.157/ iteration 17
+[2023-04-13 13:02:18] INFO: Take after page complete check screenshot
+[2023-04-13 13:02:20] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:02:22] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:02:27] INFO: http://192.168.100.157/ TTFB: 303ms DOMContentLoaded: 608ms firstPaint: 507ms FCP: 507ms LCP: 651ms Load: 610ms
+[2023-04-13 13:02:29] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:02:31] INFO: Testing url http://192.168.100.157/ iteration 18
+[2023-04-13 13:02:38] INFO: Take after page complete check screenshot
+[2023-04-13 13:02:40] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:02:42] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:02:47] INFO: http://192.168.100.157/ TTFB: 288ms DOMContentLoaded: 620ms firstPaint: 493ms FCP: 493ms LCP: 682ms Load: 655ms
+[2023-04-13 13:02:48] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:02:51] INFO: Testing url http://192.168.100.157/ iteration 19
+[2023-04-13 13:02:58] INFO: Take after page complete check screenshot
+[2023-04-13 13:03:00] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:03:02] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:03:06] INFO: http://192.168.100.157/ TTFB: 267ms DOMContentLoaded: 564ms firstPaint: 449ms FCP: 449ms LCP: 571ms Load: 566ms
+[2023-04-13 13:03:08] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:03:10] INFO: Testing url http://192.168.100.157/ iteration 20
+[2023-04-13 13:03:17] INFO: Take after page complete check screenshot
+[2023-04-13 13:03:19] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:03:21] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:03:26] INFO: http://192.168.100.157/ TTFB: 345ms DOMContentLoaded: 707ms firstPaint: 595ms FCP: 595ms LCP: 729ms Load: 828ms
+[2023-04-13 13:03:27] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:03:30] INFO: Testing url http://192.168.100.157/ iteration 21
+[2023-04-13 13:03:37] INFO: Take after page complete check screenshot
+[2023-04-13 13:03:39] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:03:41] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:03:46] INFO: http://192.168.100.157/ TTFB: 328ms DOMContentLoaded: 615ms firstPaint: 528ms FCP: 528ms LCP: 639ms Load: 617ms
+[2023-04-13 13:03:47] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:03:49] INFO: Testing url http://192.168.100.157/ iteration 22
+[2023-04-13 13:03:57] INFO: Take after page complete check screenshot
+[2023-04-13 13:03:58] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:04:00] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:04:05] INFO: http://192.168.100.157/ TTFB: 300ms DOMContentLoaded: 592ms firstPaint: 486ms FCP: 486ms LCP: 608ms Load: 594ms
+[2023-04-13 13:04:07] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:04:09] INFO: Testing url http://192.168.100.157/ iteration 23
+[2023-04-13 13:04:16] INFO: Take after page complete check screenshot
+[2023-04-13 13:04:18] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:04:20] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:04:25] INFO: http://192.168.100.157/ TTFB: 299ms DOMContentLoaded: 609ms firstPaint: 517ms FCP: 517ms LCP: 639ms Load: 611ms
+[2023-04-13 13:04:27] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:04:29] INFO: Testing url http://192.168.100.157/ iteration 24
+[2023-04-13 13:04:36] INFO: Take after page complete check screenshot
+[2023-04-13 13:04:38] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:04:40] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:04:45] INFO: http://192.168.100.157/ TTFB: 272ms DOMContentLoaded: 595ms firstPaint: 483ms FCP: 483ms LCP: 661ms Load: 627ms
+[2023-04-13 13:04:46] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:04:48] INFO: Testing url http://192.168.100.157/ iteration 25
+[2023-04-13 13:04:56] INFO: Take after page complete check screenshot
+[2023-04-13 13:04:58] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:04:59] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:05:04] INFO: http://192.168.100.157/ TTFB: 324ms DOMContentLoaded: 591ms firstPaint: 507ms FCP: 507ms LCP: 608ms Load: 593ms
+[2023-04-13 13:05:06] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:05:08] INFO: Testing url http://192.168.100.157/ iteration 26
+[2023-04-13 13:05:15] INFO: Take after page complete check screenshot
+[2023-04-13 13:05:17] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:05:19] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:05:24] INFO: http://192.168.100.157/ TTFB: 315ms DOMContentLoaded: 617ms firstPaint: 528ms FCP: 528ms LCP: 639ms Load: 619ms
+[2023-04-13 13:05:25] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:05:27] INFO: Testing url http://192.168.100.157/ iteration 27
+[2023-04-13 13:05:35] INFO: Take after page complete check screenshot
+[2023-04-13 13:05:37] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:05:39] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:05:43] INFO: http://192.168.100.157/ TTFB: 295ms DOMContentLoaded: 581ms firstPaint: 482ms FCP: 482ms LCP: 593ms Load: 583ms
+[2023-04-13 13:05:45] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:05:48] INFO: Testing url http://192.168.100.157/ iteration 28
+[2023-04-13 13:05:55] INFO: Take after page complete check screenshot
+[2023-04-13 13:05:57] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:05:59] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:06:04] INFO: http://192.168.100.157/ TTFB: 292ms DOMContentLoaded: 648ms firstPaint: 540ms FCP: 540ms LCP: 673ms Load: 649ms
+[2023-04-13 13:06:05] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:06:07] INFO: Testing url http://192.168.100.157/ iteration 29
+[2023-04-13 13:06:14] INFO: Take after page complete check screenshot
+[2023-04-13 13:06:16] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:06:18] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:06:23] INFO: http://192.168.100.157/ TTFB: 262ms DOMContentLoaded: 561ms firstPaint: 462ms FCP: 462ms LCP: 551ms Load: 563ms
+[2023-04-13 13:06:25] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:06:27] INFO: Testing url http://192.168.100.157/ iteration 30
+[2023-04-13 13:06:34] INFO: Take after page complete check screenshot
+[2023-04-13 13:06:36] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:06:38] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:06:42] INFO: http://192.168.100.157/ TTFB: 331ms DOMContentLoaded: 628ms firstPaint: 529ms FCP: 529ms LCP: 652ms Load: 630ms
+[2023-04-13 13:06:44] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:06:46] INFO: Testing url http://192.168.100.157/ iteration 31
+[2023-04-13 13:06:53] INFO: Take after page complete check screenshot
+[2023-04-13 13:06:55] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:06:57] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:07:02] INFO: http://192.168.100.157/ TTFB: 274ms DOMContentLoaded: 576ms firstPaint: 474ms FCP: 474ms LCP: 585ms Load: 578ms
+[2023-04-13 13:07:03] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:07:06] INFO: Testing url http://192.168.100.157/ iteration 32
+[2023-04-13 13:07:13] INFO: Take after page complete check screenshot
+[2023-04-13 13:07:15] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:07:17] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:07:22] INFO: http://192.168.100.157/ TTFB: 272ms DOMContentLoaded: 550ms firstPaint: 450ms FCP: 450ms LCP: 573ms Load: 571ms
+[2023-04-13 13:07:23] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:07:25] INFO: Testing url http://192.168.100.157/ iteration 33
+[2023-04-13 13:07:32] INFO: Take after page complete check screenshot
+[2023-04-13 13:07:34] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:07:36] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:07:41] INFO: http://192.168.100.157/ TTFB: 295ms DOMContentLoaded: 642ms firstPaint: 529ms FCP: 529ms LCP: 674ms Load: 646ms
+[2023-04-13 13:07:43] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:07:45] INFO: Testing url http://192.168.100.157/ iteration 34
+[2023-04-13 13:07:52] INFO: Take after page complete check screenshot
+[2023-04-13 13:07:54] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:07:56] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:08:01] INFO: http://192.168.100.157/ TTFB: 298ms DOMContentLoaded: 621ms firstPaint: 506ms FCP: 506ms LCP: 617ms Load: 623ms
+[2023-04-13 13:08:02] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:08:05] INFO: Testing url http://192.168.100.157/ iteration 35
+[2023-04-13 13:08:12] INFO: Take after page complete check screenshot
+[2023-04-13 13:08:14] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:08:16] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:08:20] INFO: http://192.168.100.157/ TTFB: 309ms DOMContentLoaded: 592ms firstPaint: 495ms FCP: 495ms LCP: 606ms Load: 594ms
+[2023-04-13 13:08:22] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:08:24] INFO: Testing url http://192.168.100.157/ iteration 36
+[2023-04-13 13:08:31] INFO: Take after page complete check screenshot
+[2023-04-13 13:08:33] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:08:35] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:08:40] INFO: http://192.168.100.157/ TTFB: 275ms DOMContentLoaded: 566ms firstPaint: 506ms FCP: 506ms LCP: 595ms Load: 568ms
+[2023-04-13 13:08:42] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:08:44] INFO: Testing url http://192.168.100.157/ iteration 37
+[2023-04-13 13:08:51] INFO: Take after page complete check screenshot
+[2023-04-13 13:08:53] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:08:55] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:09:00] INFO: http://192.168.100.157/ TTFB: 273ms DOMContentLoaded: 639ms firstPaint: 505ms FCP: 505ms LCP: 661ms Load: 735ms
+[2023-04-13 13:09:01] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:09:04] INFO: Testing url http://192.168.100.157/ iteration 38
+[2023-04-13 13:09:11] INFO: Take after page complete check screenshot
+[2023-04-13 13:09:13] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:09:14] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:09:19] INFO: http://192.168.100.157/ TTFB: 287ms DOMContentLoaded: 569ms firstPaint: 472ms FCP: 472ms LCP: 617ms Load: 572ms
+[2023-04-13 13:09:21] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:09:23] INFO: Testing url http://192.168.100.157/ iteration 39
+[2023-04-13 13:09:30] INFO: Take after page complete check screenshot
+[2023-04-13 13:09:32] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:09:34] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:09:39] INFO: http://192.168.100.157/ TTFB: 260ms DOMContentLoaded: 547ms firstPaint: 452ms FCP: 452ms LCP: 541ms Load: 549ms
+[2023-04-13 13:09:40] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:09:43] INFO: Testing url http://192.168.100.157/ iteration 40
+[2023-04-13 13:09:50] INFO: Take after page complete check screenshot
+[2023-04-13 13:09:52] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:09:54] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:09:58] INFO: http://192.168.100.157/ TTFB: 295ms DOMContentLoaded: 611ms firstPaint: 508ms FCP: 508ms LCP: 631ms Load: 613ms
+[2023-04-13 13:10:00] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:10:02] INFO: Testing url http://192.168.100.157/ iteration 41
+[2023-04-13 13:10:09] INFO: Take after page complete check screenshot
+[2023-04-13 13:10:11] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:10:13] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:10:18] INFO: http://192.168.100.157/ TTFB: 339ms DOMContentLoaded: 631ms firstPaint: 552ms FCP: 552ms LCP: 641ms Load: 632ms
+[2023-04-13 13:10:20] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:10:22] INFO: Testing url http://192.168.100.157/ iteration 42
+[2023-04-13 13:10:29] INFO: Take after page complete check screenshot
+[2023-04-13 13:10:31] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:10:33] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:10:38] INFO: http://192.168.100.157/ TTFB: 233ms DOMContentLoaded: 547ms firstPaint: 426ms FCP: 426ms LCP: 560ms Load: 548ms
+[2023-04-13 13:10:39] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:10:41] INFO: Testing url http://192.168.100.157/ iteration 43
+[2023-04-13 13:10:49] INFO: Take after page complete check screenshot
+[2023-04-13 13:10:51] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:10:53] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:10:57] INFO: http://192.168.100.157/ TTFB: 369ms DOMContentLoaded: 684ms firstPaint: 586ms FCP: 586ms LCP: 697ms Load: 685ms
+[2023-04-13 13:10:59] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:11:01] INFO: Testing url http://192.168.100.157/ iteration 44
+[2023-04-13 13:11:08] INFO: Take after page complete check screenshot
+[2023-04-13 13:11:10] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:11:12] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:11:17] INFO: http://192.168.100.157/ TTFB: 267ms DOMContentLoaded: 565ms firstPaint: 484ms FCP: 484ms LCP: 596ms Load: 567ms
+[2023-04-13 13:11:19] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:11:21] INFO: Testing url http://192.168.100.157/ iteration 45
+[2023-04-13 13:11:28] INFO: Take after page complete check screenshot
+[2023-04-13 13:11:30] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:11:32] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:11:37] INFO: http://192.168.100.157/ TTFB: 275ms DOMContentLoaded: 570ms firstPaint: 494ms FCP: 494ms LCP: 583ms Load: 572ms
+[2023-04-13 13:11:38] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:11:40] INFO: Testing url http://192.168.100.157/ iteration 46
+[2023-04-13 13:11:47] INFO: Take after page complete check screenshot
+[2023-04-13 13:11:49] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:11:51] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:11:56] INFO: http://192.168.100.157/ TTFB: 286ms DOMContentLoaded: 550ms firstPaint: 472ms FCP: 472ms LCP: 606ms Load: 574ms
+[2023-04-13 13:11:58] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:12:00] INFO: Testing url http://192.168.100.157/ iteration 47
+[2023-04-13 13:12:07] INFO: Take after page complete check screenshot
+[2023-04-13 13:12:09] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:12:11] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:12:16] INFO: http://192.168.100.157/ TTFB: 363ms DOMContentLoaded: 682ms firstPaint: 592ms FCP: 592ms LCP: 704ms Load: 685ms
+[2023-04-13 13:12:17] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:12:20] INFO: Testing url http://192.168.100.157/ iteration 48
+[2023-04-13 13:12:27] INFO: Take after page complete check screenshot
+[2023-04-13 13:12:29] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:12:31] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:12:35] INFO: http://192.168.100.157/ TTFB: 251ms DOMContentLoaded: 545ms firstPaint: 428ms FCP: 428ms LCP: 562ms Load: 570ms
+[2023-04-13 13:12:37] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:12:39] INFO: Testing url http://192.168.100.157/ iteration 49
+[2023-04-13 13:12:46] INFO: Take after page complete check screenshot
+[2023-04-13 13:12:48] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:12:50] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:12:55] INFO: http://192.168.100.157/ TTFB: 296ms DOMContentLoaded: 607ms firstPaint: 505ms FCP: 505ms LCP: 617ms Load: 608ms
+[2023-04-13 13:12:57] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:12:59] INFO: Testing url http://192.168.100.157/ iteration 50
+[2023-04-13 13:13:06] INFO: Take after page complete check screenshot
+[2023-04-13 13:13:08] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:13:10] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:13:15] INFO: http://192.168.100.157/ TTFB: 325ms DOMContentLoaded: 652ms firstPaint: 550ms FCP: 550ms LCP: 684ms Load: 705ms
+[2023-04-13 13:13:17] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:13:19] INFO: Testing url http://192.168.100.157/ iteration 51
+[2023-04-13 13:13:26] INFO: Take after page complete check screenshot
+[2023-04-13 13:13:28] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:13:30] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:13:35] INFO: http://192.168.100.157/ TTFB: 301ms DOMContentLoaded: 588ms firstPaint: 483ms FCP: 483ms LCP: 594ms Load: 589ms
+[2023-04-13 13:13:36] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:13:39] INFO: Testing url http://192.168.100.157/ iteration 52
+[2023-04-13 13:13:46] INFO: Take after page complete check screenshot
+[2023-04-13 13:13:48] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:13:50] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:13:54] INFO: http://192.168.100.157/ TTFB: 348ms DOMContentLoaded: 634ms firstPaint: 550ms FCP: 550ms LCP: 661ms Load: 685ms
+[2023-04-13 13:13:56] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:13:58] INFO: Testing url http://192.168.100.157/ iteration 53
+[2023-04-13 13:14:05] INFO: Take after page complete check screenshot
+[2023-04-13 13:14:07] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:14:09] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:14:14] INFO: http://192.168.100.157/ TTFB: 289ms DOMContentLoaded: 576ms firstPaint: 508ms FCP: 508ms LCP: 596ms Load: 578ms
+[2023-04-13 13:14:15] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:14:18] INFO: Testing url http://192.168.100.157/ iteration 54
+[2023-04-13 13:14:25] INFO: Take after page complete check screenshot
+[2023-04-13 13:14:27] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:14:29] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:14:34] INFO: http://192.168.100.157/ TTFB: 292ms DOMContentLoaded: 640ms firstPaint: 505ms FCP: 505ms LCP: 660ms Load: 642ms
+[2023-04-13 13:14:35] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:14:37] INFO: Testing url http://192.168.100.157/ iteration 55
+[2023-04-13 13:14:44] INFO: Take after page complete check screenshot
+[2023-04-13 13:14:46] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:14:48] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:14:53] INFO: http://192.168.100.157/ TTFB: 324ms DOMContentLoaded: 651ms firstPaint: 518ms FCP: 518ms LCP: 640ms Load: 675ms
+[2023-04-13 13:14:55] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:14:57] INFO: Testing url http://192.168.100.157/ iteration 56
+[2023-04-13 13:15:04] INFO: Take after page complete check screenshot
+[2023-04-13 13:15:06] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:15:08] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:15:13] INFO: http://192.168.100.157/ TTFB: 267ms DOMContentLoaded: 621ms firstPaint: 494ms FCP: 494ms LCP: 639ms Load: 622ms
+[2023-04-13 13:15:14] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:15:17] INFO: Testing url http://192.168.100.157/ iteration 57
+[2023-04-13 13:15:24] INFO: Take after page complete check screenshot
+[2023-04-13 13:15:26] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:15:28] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:15:32] INFO: http://192.168.100.157/ TTFB: 258ms DOMContentLoaded: 584ms firstPaint: 475ms FCP: 475ms LCP: 597ms Load: 586ms
+[2023-04-13 13:15:34] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:15:36] INFO: Testing url http://192.168.100.157/ iteration 58
+[2023-04-13 13:15:43] INFO: Take after page complete check screenshot
+[2023-04-13 13:15:45] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:15:47] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:15:52] INFO: http://192.168.100.157/ TTFB: 311ms DOMContentLoaded: 643ms firstPaint: 504ms FCP: 504ms LCP: 671ms Load: 691ms
+[2023-04-13 13:15:54] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:15:56] INFO: Testing url http://192.168.100.157/ iteration 59
+[2023-04-13 13:16:03] INFO: Take after page complete check screenshot
+[2023-04-13 13:16:05] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:16:07] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:16:12] INFO: http://192.168.100.157/ TTFB: 314ms DOMContentLoaded: 620ms firstPaint: 495ms FCP: 495ms LCP: 662ms Load: 690ms
+[2023-04-13 13:16:13] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:16:15] INFO: Testing url http://192.168.100.157/ iteration 60
+[2023-04-13 13:16:22] INFO: Take after page complete check screenshot
+[2023-04-13 13:16:24] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:16:26] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:16:31] INFO: http://192.168.100.157/ TTFB: 276ms DOMContentLoaded: 586ms firstPaint: 506ms FCP: 506ms LCP: 617ms Load: 588ms
+[2023-04-13 13:16:33] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:16:35] INFO: Testing url http://192.168.100.157/ iteration 61
+[2023-04-13 13:16:42] INFO: Take after page complete check screenshot
+[2023-04-13 13:16:44] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:16:46] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:16:51] INFO: http://192.168.100.157/ TTFB: 302ms DOMContentLoaded: 589ms firstPaint: 484ms FCP: 484ms LCP: 618ms Load: 590ms
+[2023-04-13 13:16:53] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:16:55] INFO: Testing url http://192.168.100.157/ iteration 62
+[2023-04-13 13:17:02] INFO: Take after page complete check screenshot
+[2023-04-13 13:17:04] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:17:06] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:17:11] INFO: http://192.168.100.157/ TTFB: 260ms DOMContentLoaded: 558ms firstPaint: 473ms FCP: 473ms LCP: 540ms Load: 560ms
+[2023-04-13 13:17:12] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:17:15] INFO: Testing url http://192.168.100.157/ iteration 63
+[2023-04-13 13:17:22] INFO: Take after page complete check screenshot
+[2023-04-13 13:17:24] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:17:26] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:17:30] INFO: http://192.168.100.157/ TTFB: 274ms DOMContentLoaded: 629ms firstPaint: 485ms FCP: 485ms LCP: 652ms Load: 631ms
+[2023-04-13 13:17:32] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:17:35] INFO: Testing url http://192.168.100.157/ iteration 64
+[2023-04-13 13:17:42] INFO: Take after page complete check screenshot
+[2023-04-13 13:17:44] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:17:46] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:17:50] INFO: http://192.168.100.157/ TTFB: 304ms DOMContentLoaded: 621ms firstPaint: 495ms FCP: 495ms LCP: 629ms Load: 623ms
+[2023-04-13 13:17:52] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:17:54] INFO: Testing url http://192.168.100.157/ iteration 65
+[2023-04-13 13:18:01] INFO: Take after page complete check screenshot
+[2023-04-13 13:18:03] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:18:05] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:18:10] INFO: http://192.168.100.157/ TTFB: 212ms DOMContentLoaded: 486ms firstPaint: 415ms FCP: 415ms LCP: 503ms Load: 487ms
+[2023-04-13 13:18:12] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:18:14] INFO: Testing url http://192.168.100.157/ iteration 66
+[2023-04-13 13:18:21] INFO: Take after page complete check screenshot
+[2023-04-13 13:18:23] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:18:25] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:18:30] INFO: http://192.168.100.157/ TTFB: 212ms DOMContentLoaded: 512ms firstPaint: 395ms FCP: 395ms LCP: 540ms Load: 538ms
+[2023-04-13 13:18:31] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:18:33] INFO: Testing url http://192.168.100.157/ iteration 67
+[2023-04-13 13:18:40] INFO: Take after page complete check screenshot
+[2023-04-13 13:18:42] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:18:44] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:18:49] INFO: http://192.168.100.157/ TTFB: 243ms DOMContentLoaded: 529ms firstPaint: 418ms FCP: 418ms LCP: 518ms Load: 531ms
+[2023-04-13 13:18:51] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:18:53] INFO: Testing url http://192.168.100.157/ iteration 68
+[2023-04-13 13:19:00] INFO: Take after page complete check screenshot
+[2023-04-13 13:19:02] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:19:04] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:19:09] INFO: http://192.168.100.157/ TTFB: 233ms DOMContentLoaded: 540ms firstPaint: 417ms FCP: 417ms LCP: 562ms Load: 603ms
+[2023-04-13 13:19:10] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:19:13] INFO: Testing url http://192.168.100.157/ iteration 69
+[2023-04-13 13:19:20] INFO: Take after page complete check screenshot
+[2023-04-13 13:19:22] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:19:24] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:19:29] INFO: http://192.168.100.157/ TTFB: 260ms DOMContentLoaded: 541ms firstPaint: 474ms FCP: 474ms LCP: 597ms Load: 544ms
+[2023-04-13 13:19:30] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:19:32] INFO: Testing url http://192.168.100.157/ iteration 70
+[2023-04-13 13:19:40] INFO: Take after page complete check screenshot
+[2023-04-13 13:19:42] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:19:43] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:19:48] INFO: http://192.168.100.157/ TTFB: 316ms DOMContentLoaded: 639ms firstPaint: 518ms FCP: 518ms LCP: 674ms Load: 663ms
+[2023-04-13 13:19:50] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:19:52] INFO: Testing url http://192.168.100.157/ iteration 71
+[2023-04-13 13:19:59] INFO: Take after page complete check screenshot
+[2023-04-13 13:20:01] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:20:03] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:20:08] INFO: http://192.168.100.157/ TTFB: 334ms DOMContentLoaded: 638ms firstPaint: 529ms FCP: 529ms LCP: 629ms Load: 640ms
+[2023-04-13 13:20:10] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:20:12] INFO: Testing url http://192.168.100.157/ iteration 72
+[2023-04-13 13:20:19] INFO: Take after page complete check screenshot
+[2023-04-13 13:20:21] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:20:23] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:20:28] INFO: http://192.168.100.157/ TTFB: 385ms DOMContentLoaded: 682ms firstPaint: 596ms FCP: 596ms LCP: 718ms Load: 684ms
+[2023-04-13 13:20:29] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:20:32] INFO: Testing url http://192.168.100.157/ iteration 73
+[2023-04-13 13:20:39] INFO: Take after page complete check screenshot
+[2023-04-13 13:20:41] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:20:43] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:20:48] INFO: http://192.168.100.157/ TTFB: 300ms DOMContentLoaded: 568ms firstPaint: 483ms FCP: 483ms LCP: 584ms Load: 571ms
+[2023-04-13 13:20:49] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:20:51] INFO: Testing url http://192.168.100.157/ iteration 74
+[2023-04-13 13:20:58] INFO: Take after page complete check screenshot
+[2023-04-13 13:21:00] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:21:02] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:21:07] INFO: http://192.168.100.157/ TTFB: 274ms DOMContentLoaded: 564ms firstPaint: 472ms FCP: 472ms LCP: 617ms Load: 566ms
+[2023-04-13 13:21:09] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:21:11] INFO: Testing url http://192.168.100.157/ iteration 75
+[2023-04-13 13:21:18] INFO: Take after page complete check screenshot
+[2023-04-13 13:21:20] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:21:22] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:21:27] INFO: http://192.168.100.157/ TTFB: 322ms DOMContentLoaded: 656ms firstPaint: 528ms FCP: 528ms LCP: 684ms Load: 659ms
+[2023-04-13 13:21:28] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:21:30] INFO: Testing url http://192.168.100.157/ iteration 76
+[2023-04-13 13:21:38] INFO: Take after page complete check screenshot
+[2023-04-13 13:21:39] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:21:41] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:21:46] INFO: http://192.168.100.157/ TTFB: 293ms DOMContentLoaded: 603ms firstPaint: 484ms FCP: 484ms LCP: 662ms Load: 607ms
+[2023-04-13 13:21:48] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:21:50] INFO: Testing url http://192.168.100.157/ iteration 77
+[2023-04-13 13:21:57] INFO: Take after page complete check screenshot
+[2023-04-13 13:21:59] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:22:01] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:22:06] INFO: http://192.168.100.157/ TTFB: 299ms DOMContentLoaded: 581ms firstPaint: 485ms FCP: 485ms LCP: 608ms Load: 602ms
+[2023-04-13 13:22:07] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:22:09] INFO: Testing url http://192.168.100.157/ iteration 78
+[2023-04-13 13:22:17] INFO: Take after page complete check screenshot
+[2023-04-13 13:22:18] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:22:20] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:22:25] INFO: http://192.168.100.157/ TTFB: 301ms DOMContentLoaded: 601ms firstPaint: 486ms FCP: 486ms LCP: 608ms Load: 603ms
+[2023-04-13 13:22:27] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:22:29] INFO: Testing url http://192.168.100.157/ iteration 79
+[2023-04-13 13:22:38] INFO: Take after page complete check screenshot
+[2023-04-13 13:22:39] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:22:41] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:22:46] INFO: http://192.168.100.157/ TTFB: 269ms DOMContentLoaded: 1.64s firstPaint: 941ms FCP: 941ms LCP: 1.64s Load: 1.64s TBT: 249ms
+[2023-04-13 13:22:48] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:22:50] INFO: Testing url http://192.168.100.157/ iteration 80
+[2023-04-13 13:22:57] INFO: Take after page complete check screenshot
+[2023-04-13 13:22:59] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:23:01] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:23:06] INFO: http://192.168.100.157/ TTFB: 200ms DOMContentLoaded: 499ms firstPaint: 387ms FCP: 387ms LCP: 509ms Load: 501ms
+[2023-04-13 13:23:07] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:23:09] INFO: Testing url http://192.168.100.157/ iteration 81
+[2023-04-13 13:23:16] INFO: Take after page complete check screenshot
+[2023-04-13 13:23:18] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:23:20] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:23:25] INFO: http://192.168.100.157/ TTFB: 330ms DOMContentLoaded: 649ms firstPaint: 550ms FCP: 550ms LCP: 673ms Load: 651ms
+[2023-04-13 13:23:27] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:23:29] INFO: Testing url http://192.168.100.157/ iteration 82
+[2023-04-13 13:23:36] INFO: Take after page complete check screenshot
+[2023-04-13 13:23:38] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:23:40] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:23:45] INFO: http://192.168.100.157/ TTFB: 229ms DOMContentLoaded: 501ms firstPaint: 417ms FCP: 417ms LCP: 517ms Load: 503ms
+[2023-04-13 13:23:46] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:23:49] INFO: Testing url http://192.168.100.157/ iteration 83
+[2023-04-13 13:23:56] INFO: Take after page complete check screenshot
+[2023-04-13 13:23:58] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:24:00] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:24:04] INFO: http://192.168.100.157/ TTFB: 283ms DOMContentLoaded: 618ms firstPaint: 473ms FCP: 473ms LCP: 651ms Load: 620ms
+[2023-04-13 13:24:06] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:24:08] INFO: Testing url http://192.168.100.157/ iteration 84
+[2023-04-13 13:24:15] INFO: Take after page complete check screenshot
+[2023-04-13 13:24:17] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:24:19] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:24:24] INFO: http://192.168.100.157/ TTFB: 257ms DOMContentLoaded: 536ms firstPaint: 439ms FCP: 439ms LCP: 551ms Load: 538ms
+[2023-04-13 13:24:26] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:24:28] INFO: Testing url http://192.168.100.157/ iteration 85
+[2023-04-13 13:24:35] INFO: Take after page complete check screenshot
+[2023-04-13 13:24:37] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:24:39] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:24:44] INFO: http://192.168.100.157/ TTFB: 325ms DOMContentLoaded: 620ms firstPaint: 529ms FCP: 529ms LCP: 640ms Load: 622ms
+[2023-04-13 13:24:45] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:24:48] INFO: Testing url http://192.168.100.157/ iteration 86
+[2023-04-13 13:24:55] INFO: Take after page complete check screenshot
+[2023-04-13 13:24:57] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:24:58] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:25:03] INFO: http://192.168.100.157/ TTFB: 297ms DOMContentLoaded: 605ms firstPaint: 507ms FCP: 507ms LCP: 607ms Load: 607ms
+[2023-04-13 13:25:05] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:25:07] INFO: Testing url http://192.168.100.157/ iteration 87
+[2023-04-13 13:25:14] INFO: Take after page complete check screenshot
+[2023-04-13 13:25:16] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:25:18] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:25:23] INFO: http://192.168.100.157/ TTFB: 341ms DOMContentLoaded: 634ms firstPaint: 534ms FCP: 534ms LCP: 646ms Load: 636ms
+[2023-04-13 13:25:24] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:25:27] INFO: Testing url http://192.168.100.157/ iteration 88
+[2023-04-13 13:25:34] INFO: Take after page complete check screenshot
+[2023-04-13 13:25:36] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:25:38] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:25:42] INFO: http://192.168.100.157/ TTFB: 215ms DOMContentLoaded: 530ms firstPaint: 442ms FCP: 442ms LCP: 564ms Load: 532ms
+[2023-04-13 13:25:44] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:25:46] INFO: Testing url http://192.168.100.157/ iteration 89
+[2023-04-13 13:25:53] INFO: Take after page complete check screenshot
+[2023-04-13 13:25:55] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:25:57] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:26:02] INFO: http://192.168.100.157/ TTFB: 234ms DOMContentLoaded: 576ms firstPaint: 460ms FCP: 460ms LCP: 616ms Load: 577ms
+[2023-04-13 13:26:04] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:26:06] INFO: Testing url http://192.168.100.157/ iteration 90
+[2023-04-13 13:26:13] INFO: Take after page complete check screenshot
+[2023-04-13 13:26:15] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:26:17] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:26:22] INFO: http://192.168.100.157/ TTFB: 288ms DOMContentLoaded: 576ms firstPaint: 519ms FCP: 519ms LCP: 686ms Load: 680ms
+[2023-04-13 13:26:23] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:26:26] INFO: Testing url http://192.168.100.157/ iteration 91
+[2023-04-13 13:26:33] INFO: Take after page complete check screenshot
+[2023-04-13 13:26:35] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:26:37] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:26:41] INFO: http://192.168.100.157/ TTFB: 262ms DOMContentLoaded: 562ms firstPaint: 472ms FCP: 472ms LCP: 595ms Load: 564ms
+[2023-04-13 13:26:43] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:26:45] INFO: Testing url http://192.168.100.157/ iteration 92
+[2023-04-13 13:26:52] INFO: Take after page complete check screenshot
+[2023-04-13 13:26:54] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:26:56] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:27:01] INFO: http://192.168.100.157/ TTFB: 243ms DOMContentLoaded: 541ms firstPaint: 428ms FCP: 428ms LCP: 550ms Load: 543ms
+[2023-04-13 13:27:02] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:27:05] INFO: Testing url http://192.168.100.157/ iteration 93
+[2023-04-13 13:27:12] INFO: Take after page complete check screenshot
+[2023-04-13 13:27:14] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:27:16] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:27:20] INFO: http://192.168.100.157/ TTFB: 251ms DOMContentLoaded: 514ms firstPaint: 419ms FCP: 419ms LCP: 530ms Load: 516ms
+[2023-04-13 13:27:22] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:27:24] INFO: Testing url http://192.168.100.157/ iteration 94
+[2023-04-13 13:27:31] INFO: Take after page complete check screenshot
+[2023-04-13 13:27:33] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:27:35] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:27:40] INFO: http://192.168.100.157/ TTFB: 349ms DOMContentLoaded: 689ms firstPaint: 552ms FCP: 552ms LCP: 719ms Load: 710ms
+[2023-04-13 13:27:42] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:27:44] INFO: Testing url http://192.168.100.157/ iteration 95
+[2023-04-13 13:27:51] INFO: Take after page complete check screenshot
+[2023-04-13 13:27:53] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:27:55] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:28:00] INFO: http://192.168.100.157/ TTFB: 330ms DOMContentLoaded: 606ms firstPaint: 529ms FCP: 529ms LCP: 662ms Load: 608ms
+[2023-04-13 13:28:01] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:28:03] INFO: Testing url http://192.168.100.157/ iteration 96
+[2023-04-13 13:28:10] INFO: Take after page complete check screenshot
+[2023-04-13 13:28:12] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:28:14] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:28:19] INFO: http://192.168.100.157/ TTFB: 246ms DOMContentLoaded: 546ms firstPaint: 418ms FCP: 418ms LCP: 607ms Load: 549ms
+[2023-04-13 13:28:21] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:28:23] INFO: Testing url http://192.168.100.157/ iteration 97
+[2023-04-13 13:28:30] INFO: Take after page complete check screenshot
+[2023-04-13 13:28:32] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:28:34] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:28:39] INFO: http://192.168.100.157/ TTFB: 300ms DOMContentLoaded: 611ms firstPaint: 518ms FCP: 518ms LCP: 618ms Load: 613ms
+[2023-04-13 13:28:41] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:28:43] INFO: Testing url http://192.168.100.157/ iteration 98
+[2023-04-13 13:28:50] INFO: Take after page complete check screenshot
+[2023-04-13 13:28:52] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:28:54] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:28:59] INFO: http://192.168.100.157/ TTFB: 315ms DOMContentLoaded: 638ms firstPaint: 508ms FCP: 508ms LCP: 664ms Load: 639ms
+[2023-04-13 13:29:00] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:29:03] INFO: Testing url http://192.168.100.157/ iteration 99
+[2023-04-13 13:29:10] INFO: Take after page complete check screenshot
+[2023-04-13 13:29:12] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:29:14] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:29:18] INFO: http://192.168.100.157/ TTFB: 332ms DOMContentLoaded: 631ms firstPaint: 530ms FCP: 530ms LCP: 652ms Load: 633ms
+[2023-04-13 13:29:20] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-13 13:29:22] INFO: Testing url http://192.168.100.157/ iteration 100
+[2023-04-13 13:29:29] INFO: Take after page complete check screenshot
+[2023-04-13 13:29:31] INFO: Take cumulative layout shift screenshot
+[2023-04-13 13:29:33] INFO: Take largest contentful paint screenshot
+[2023-04-13 13:29:38] INFO: http://192.168.100.157/ TTFB: 284ms DOMContentLoaded: 583ms firstPaint: 483ms FCP: 483ms LCP: 617ms Load: 585ms
+[2023-04-13 13:29:38] INFO: http://192.168.100.157/ 41 requests, TTFB: 294ms (σ38.00ms 13.0%), firstPaint: 495ms (σ65.00ms 12.9%), FCP: 495ms (σ65.00ms 12.9%), DOMContentLoaded: 603ms (σ115.00ms 18.9%), LCP: 618ms (σ116.00ms 18.3%), CLS: 0 (σ0.00 0%), TBT: 0ms (σ25.00ms 995.0%), CPUBenchmark: 148ms (σ11.00ms 7.7%), Load: 608ms (σ129.00ms 20.6%) (100 runs)

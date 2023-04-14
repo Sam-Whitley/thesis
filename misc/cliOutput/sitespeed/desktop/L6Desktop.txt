@@ -1,0 +1,905 @@
+sam@Sam MINGW64 ~
+$ sitespeed.io http://192.168.100.108/ --video --visualMetrics --cpu --visualElements -n 100 --name L6Desktop --urlAlias L6Desktop
+[2023-04-12 19:46:56] INFO: Versions OS: win32 10.0.22621 nodejs: v18.14.2 sitespeed.io: 27.3.0 browsertime: 17.8.0 coach: 7.1.3
+[2023-04-12 19:46:56] INFO: Running tests using Chrome - 100 iteration(s)
+[2023-04-12 19:46:57] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:46:57] INFO: Testing url http://192.168.100.108/ iteration 1
+[2023-04-12 19:47:05] INFO: Take after page complete check screenshot
+[2023-04-12 19:47:06] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:47:07] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:47:10] INFO: Use the visual metrics portable script
+[2023-04-12 19:47:10] INFO: Get visual metrics from the video
+[2023-04-12 19:47:12] INFO: http://192.168.100.108/ TTFB: 570ms DOMContentLoaded: 672ms firstPaint: 648ms FCP: 648ms LCP: 648ms Load: 720ms CLS:0.0019
+[2023-04-12 19:47:12] INFO: VisualMetrics: FirstVisualChange: 634ms SpeedIndex: 694ms VisualComplete85: 700ms LastVisualChange: 700ms
+[2023-04-12 19:47:13] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:47:13] INFO: Testing url http://192.168.100.108/ iteration 2
+[2023-04-12 19:47:21] INFO: Take after page complete check screenshot
+[2023-04-12 19:47:21] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:47:22] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:47:25] INFO: Use the visual metrics portable script
+[2023-04-12 19:47:25] INFO: Get visual metrics from the video
+[2023-04-12 19:47:26] INFO: http://192.168.100.108/ TTFB: 199ms DOMContentLoaded: 349ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 350ms CLS:0.0019
+[2023-04-12 19:47:26] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:47:27] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:47:27] INFO: Testing url http://192.168.100.108/ iteration 3
+[2023-04-12 19:47:35] INFO: Take after page complete check screenshot
+[2023-04-12 19:47:36] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:47:36] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:47:39] INFO: Use the visual metrics portable script
+[2023-04-12 19:47:39] INFO: Get visual metrics from the video
+[2023-04-12 19:47:41] INFO: http://192.168.100.108/ TTFB: 205ms DOMContentLoaded: 302ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 340ms CLS:0.0019
+[2023-04-12 19:47:41] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:47:41] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:47:41] INFO: Testing url http://192.168.100.108/ iteration 4
+[2023-04-12 19:47:49] INFO: Take after page complete check screenshot
+[2023-04-12 19:47:50] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:47:51] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:47:53] INFO: Use the visual metrics portable script
+[2023-04-12 19:47:53] INFO: Get visual metrics from the video
+[2023-04-12 19:47:55] INFO: http://192.168.100.108/ TTFB: 212ms DOMContentLoaded: 304ms firstPaint: 285ms FCP: 285ms LCP: 285ms Load: 347ms CLS:0.0019
+[2023-04-12 19:47:55] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:47:55] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:47:56] INFO: Testing url http://192.168.100.108/ iteration 5
+[2023-04-12 19:48:04] INFO: Take after page complete check screenshot
+[2023-04-12 19:48:04] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:48:05] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:48:08] INFO: Use the visual metrics portable script
+[2023-04-12 19:48:08] INFO: Get visual metrics from the video
+[2023-04-12 19:48:09] INFO: http://192.168.100.108/ TTFB: 202ms DOMContentLoaded: 319ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 338ms CLS:0.0019
+[2023-04-12 19:48:09] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:48:10] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:48:10] INFO: Testing url http://192.168.100.108/ iteration 6
+[2023-04-12 19:48:18] INFO: Take after page complete check screenshot
+[2023-04-12 19:48:19] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:48:19] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:48:22] INFO: Use the visual metrics portable script
+[2023-04-12 19:48:22] INFO: Get visual metrics from the video
+[2023-04-12 19:48:24] INFO: http://192.168.100.108/ TTFB: 190ms DOMContentLoaded: 336ms firstPaint: 266ms FCP: 266ms LCP: 266ms Load: 336ms CLS:0.0019
+[2023-04-12 19:48:24] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:48:24] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:48:24] INFO: Testing url http://192.168.100.108/ iteration 7
+[2023-04-12 19:48:32] INFO: Take after page complete check screenshot
+[2023-04-12 19:48:33] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:48:34] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:48:36] INFO: Use the visual metrics portable script
+[2023-04-12 19:48:36] INFO: Get visual metrics from the video
+[2023-04-12 19:48:38] INFO: http://192.168.100.108/ TTFB: 192ms DOMContentLoaded: 276ms firstPaint: 266ms FCP: 266ms LCP: 266ms Load: 319ms CLS:0.0019
+[2023-04-12 19:48:38] INFO: VisualMetrics: FirstVisualChange: 234ms SpeedIndex: 294ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:48:38] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:48:38] INFO: Testing url http://192.168.100.108/ iteration 8
+[2023-04-12 19:48:47] INFO: Take after page complete check screenshot
+[2023-04-12 19:48:47] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:48:48] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:48:51] INFO: Use the visual metrics portable script
+[2023-04-12 19:48:51] INFO: Get visual metrics from the video
+[2023-04-12 19:48:52] INFO: http://192.168.100.108/ TTFB: 200ms DOMContentLoaded: 284ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 336ms CLS:0.0019
+[2023-04-12 19:48:52] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 359ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 19:48:53] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:48:53] INFO: Testing url http://192.168.100.108/ iteration 9
+[2023-04-12 19:49:01] INFO: Take after page complete check screenshot
+[2023-04-12 19:49:02] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:49:02] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:49:05] INFO: Use the visual metrics portable script
+[2023-04-12 19:49:05] INFO: Get visual metrics from the video
+[2023-04-12 19:49:07] INFO: http://192.168.100.108/ TTFB: 219ms DOMContentLoaded: 310ms firstPaint: 295ms FCP: 295ms LCP: 295ms Load: 356ms CLS:0.0019
+[2023-04-12 19:49:07] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:49:08] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:49:08] INFO: Testing url http://192.168.100.108/ iteration 10
+[2023-04-12 19:49:16] INFO: Take after page complete check screenshot
+[2023-04-12 19:49:17] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:49:17] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:49:20] INFO: Use the visual metrics portable script
+[2023-04-12 19:49:20] INFO: Get visual metrics from the video
+[2023-04-12 19:49:22] INFO: http://192.168.100.108/ TTFB: 198ms DOMContentLoaded: 280ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 334ms CLS:0.0018
+[2023-04-12 19:49:22] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:49:23] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:49:23] INFO: Testing url http://192.168.100.108/ iteration 11
+[2023-04-12 19:49:31] INFO: Take after page complete check screenshot
+[2023-04-12 19:49:32] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:49:32] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:49:35] INFO: Use the visual metrics portable script
+[2023-04-12 19:49:35] INFO: Get visual metrics from the video
+[2023-04-12 19:49:37] INFO: http://192.168.100.108/ TTFB: 197ms DOMContentLoaded: 288ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 337ms CLS:0.0019
+[2023-04-12 19:49:37] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 298ms VisualComplete85: 300ms LastVisualChange: 334ms
+[2023-04-12 19:49:37] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:49:37] INFO: Testing url http://192.168.100.108/ iteration 12
+[2023-04-12 19:49:45] INFO: Take after page complete check screenshot
+[2023-04-12 19:49:46] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:49:47] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:49:49] INFO: Use the visual metrics portable script
+[2023-04-12 19:49:49] INFO: Get visual metrics from the video
+[2023-04-12 19:49:51] INFO: http://192.168.100.108/ TTFB: 208ms DOMContentLoaded: 290ms firstPaint: 285ms FCP: 285ms LCP: 285ms Load: 340ms CLS:0.0019
+[2023-04-12 19:49:51] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 298ms VisualComplete85: 300ms LastVisualChange: 334ms
+[2023-04-12 19:49:51] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:49:51] INFO: Testing url http://192.168.100.108/ iteration 13
+[2023-04-12 19:50:00] INFO: Take after page complete check screenshot
+[2023-04-12 19:50:00] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:50:01] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:50:04] INFO: Use the visual metrics portable script
+[2023-04-12 19:50:04] INFO: Get visual metrics from the video
+[2023-04-12 19:50:05] INFO: http://192.168.100.108/ TTFB: 197ms DOMContentLoaded: 279ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 342ms CLS:0.0019
+[2023-04-12 19:50:05] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 334ms
+[2023-04-12 19:50:06] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:50:06] INFO: Testing url http://192.168.100.108/ iteration 14
+[2023-04-12 19:50:14] INFO: Take after page complete check screenshot
+[2023-04-12 19:50:14] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:50:15] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:50:18] INFO: Use the visual metrics portable script
+[2023-04-12 19:50:18] INFO: Get visual metrics from the video
+[2023-04-12 19:50:19] INFO: http://192.168.100.108/ TTFB: 220ms DOMContentLoaded: 342ms firstPaint: 297ms FCP: 297ms LCP: 297ms Load: 367ms CLS:0.0019
+[2023-04-12 19:50:19] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 361ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 19:50:20] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:50:20] INFO: Testing url http://192.168.100.108/ iteration 15
+[2023-04-12 19:50:28] INFO: Take after page complete check screenshot
+[2023-04-12 19:50:29] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:50:29] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:50:32] INFO: Use the visual metrics portable script
+[2023-04-12 19:50:32] INFO: Get visual metrics from the video
+[2023-04-12 19:50:34] INFO: http://192.168.100.108/ TTFB: 194ms DOMContentLoaded: 284ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 337ms CLS:0.0019
+[2023-04-12 19:50:34] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:50:34] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:50:34] INFO: Testing url http://192.168.100.108/ iteration 16
+[2023-04-12 19:50:42] INFO: Take after page complete check screenshot
+[2023-04-12 19:50:43] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:50:44] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:50:46] INFO: Use the visual metrics portable script
+[2023-04-12 19:50:46] INFO: Get visual metrics from the video
+[2023-04-12 19:50:48] INFO: http://192.168.100.108/ TTFB: 191ms DOMContentLoaded: 360ms firstPaint: 271ms FCP: 271ms LCP: 271ms Load: 360ms CLS:0.0019
+[2023-04-12 19:50:48] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:50:49] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:50:49] INFO: Testing url http://192.168.100.108/ iteration 17
+[2023-04-12 19:50:57] INFO: Take after page complete check screenshot
+[2023-04-12 19:50:58] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:50:58] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:51:01] INFO: Use the visual metrics portable script
+[2023-04-12 19:51:01] INFO: Get visual metrics from the video
+[2023-04-12 19:51:03] INFO: http://192.168.100.108/ TTFB: 199ms DOMContentLoaded: 301ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 329ms CLS:0.0019
+[2023-04-12 19:51:03] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:51:03] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:51:03] INFO: Testing url http://192.168.100.108/ iteration 18
+[2023-04-12 19:51:11] INFO: Take after page complete check screenshot
+[2023-04-12 19:51:12] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:51:13] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:51:15] INFO: Use the visual metrics portable script
+[2023-04-12 19:51:15] INFO: Get visual metrics from the video
+[2023-04-12 19:51:17] INFO: http://192.168.100.108/ TTFB: 199ms DOMContentLoaded: 278ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 346ms CLS:0.0019
+[2023-04-12 19:51:17] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:51:17] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:51:17] INFO: Testing url http://192.168.100.108/ iteration 19
+[2023-04-12 19:51:26] INFO: Take after page complete check screenshot
+[2023-04-12 19:51:26] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:51:27] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:51:30] INFO: Use the visual metrics portable script
+[2023-04-12 19:51:30] INFO: Get visual metrics from the video
+[2023-04-12 19:51:31] INFO: http://192.168.100.108/ TTFB: 213ms DOMContentLoaded: 311ms firstPaint: 297ms FCP: 297ms LCP: 297ms Load: 347ms CLS:0.0019
+[2023-04-12 19:51:31] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 300ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:51:32] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:51:32] INFO: Testing url http://192.168.100.108/ iteration 20
+[2023-04-12 19:51:40] INFO: Take after page complete check screenshot
+[2023-04-12 19:51:40] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:51:41] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:51:44] INFO: Use the visual metrics portable script
+[2023-04-12 19:51:44] INFO: Get visual metrics from the video
+[2023-04-12 19:51:45] INFO: http://192.168.100.108/ TTFB: 201ms DOMContentLoaded: 285ms firstPaint: 279ms FCP: 279ms LCP: 279ms Load: 358ms CLS:0.0019
+[2023-04-12 19:51:45] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 359ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 19:51:46] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:51:46] INFO: Testing url http://192.168.100.108/ iteration 21
+[2023-04-12 19:51:54] INFO: Take after page complete check screenshot
+[2023-04-12 19:51:55] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:51:55] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:51:58] INFO: Use the visual metrics portable script
+[2023-04-12 19:51:58] INFO: Get visual metrics from the video
+[2023-04-12 19:52:00] INFO: http://192.168.100.108/ TTFB: 202ms DOMContentLoaded: 296ms firstPaint: 279ms FCP: 279ms LCP: 279ms Load: 328ms CLS:0.0019
+[2023-04-12 19:52:00] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:52:00] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:52:01] INFO: Testing url http://192.168.100.108/ iteration 22
+[2023-04-12 19:52:09] INFO: Take after page complete check screenshot
+[2023-04-12 19:52:09] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:52:10] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:52:13] INFO: Use the visual metrics portable script
+[2023-04-12 19:52:13] INFO: Get visual metrics from the video
+[2023-04-12 19:52:15] INFO: http://192.168.100.108/ TTFB: 194ms DOMContentLoaded: 297ms firstPaint: 271ms FCP: 271ms LCP: 271ms Load: 338ms CLS:0.0018
+[2023-04-12 19:52:15] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:52:15] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:52:15] INFO: Testing url http://192.168.100.108/ iteration 23
+[2023-04-12 19:52:23] INFO: Take after page complete check screenshot
+[2023-04-12 19:52:24] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:52:25] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:52:27] INFO: Use the visual metrics portable script
+[2023-04-12 19:52:27] INFO: Get visual metrics from the video
+[2023-04-12 19:52:29] INFO: http://192.168.100.108/ TTFB: 193ms DOMContentLoaded: 294ms firstPaint: 271ms FCP: 271ms LCP: 271ms Load: 330ms CLS:0.0018
+[2023-04-12 19:52:29] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 267ms VisualComplete85: 267ms LastVisualChange: 300ms
+[2023-04-12 19:52:30] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:52:30] INFO: Testing url http://192.168.100.108/ iteration 24
+[2023-04-12 19:52:38] INFO: Take after page complete check screenshot
+[2023-04-12 19:52:39] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:52:39] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:52:42] INFO: Use the visual metrics portable script
+[2023-04-12 19:52:42] INFO: Get visual metrics from the video
+[2023-04-12 19:52:44] INFO: http://192.168.100.108/ TTFB: 217ms DOMContentLoaded: 331ms firstPaint: 297ms FCP: 297ms LCP: 297ms Load: 356ms CLS:0.0019
+[2023-04-12 19:52:44] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 361ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 19:52:44] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:52:44] INFO: Testing url http://192.168.100.108/ iteration 25
+[2023-04-12 19:52:52] INFO: Take after page complete check screenshot
+[2023-04-12 19:52:53] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:52:54] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:52:56] INFO: Use the visual metrics portable script
+[2023-04-12 19:52:56] INFO: Get visual metrics from the video
+[2023-04-12 19:52:59] INFO: http://192.168.100.108/ TTFB: 195ms DOMContentLoaded: 293ms firstPaint: 270ms FCP: 270ms LCP: 270ms Load: 320ms CLS:0.0018
+[2023-04-12 19:52:59] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 334ms
+[2023-04-12 19:52:59] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:52:59] INFO: Testing url http://192.168.100.108/ iteration 26
+[2023-04-12 19:53:07] INFO: Take after page complete check screenshot
+[2023-04-12 19:53:08] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:53:09] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:53:11] INFO: Use the visual metrics portable script
+[2023-04-12 19:53:11] INFO: Get visual metrics from the video
+[2023-04-12 19:53:13] INFO: http://192.168.100.108/ TTFB: 196ms DOMContentLoaded: 301ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 335ms CLS:0.0019
+[2023-04-12 19:53:13] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 267ms VisualComplete85: 267ms LastVisualChange: 300ms
+[2023-04-12 19:53:13] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:53:13] INFO: Testing url http://192.168.100.108/ iteration 27
+[2023-04-12 19:53:22] INFO: Take after page complete check screenshot
+[2023-04-12 19:53:22] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:53:23] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:53:26] INFO: Use the visual metrics portable script
+[2023-04-12 19:53:26] INFO: Get visual metrics from the video
+[2023-04-12 19:53:27] INFO: http://192.168.100.108/ TTFB: 194ms DOMContentLoaded: 284ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 320ms CLS:0.0018
+[2023-04-12 19:53:27] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 298ms VisualComplete85: 300ms LastVisualChange: 334ms
+[2023-04-12 19:53:28] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:53:28] INFO: Testing url http://192.168.100.108/ iteration 28
+[2023-04-12 19:53:36] INFO: Take after page complete check screenshot
+[2023-04-12 19:53:37] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:53:37] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:53:40] INFO: Use the visual metrics portable script
+[2023-04-12 19:53:40] INFO: Get visual metrics from the video
+[2023-04-12 19:53:42] INFO: http://192.168.100.108/ TTFB: 197ms DOMContentLoaded: 318ms firstPaint: 271ms FCP: 271ms LCP: 271ms Load: 342ms CLS:0.0019
+[2023-04-12 19:53:42] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:53:42] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:53:42] INFO: Testing url http://192.168.100.108/ iteration 29
+[2023-04-12 19:53:50] INFO: Take after page complete check screenshot
+[2023-04-12 19:53:51] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:53:51] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:53:54] INFO: Use the visual metrics portable script
+[2023-04-12 19:53:54] INFO: Get visual metrics from the video
+[2023-04-12 19:53:56] INFO: http://192.168.100.108/ TTFB: 219ms DOMContentLoaded: 331ms firstPaint: 291ms FCP: 291ms LCP: 291ms Load: 353ms CLS:0.0018
+[2023-04-12 19:53:56] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 301ms VisualComplete85: 300ms LastVisualChange: 334ms
+[2023-04-12 19:53:56] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:53:56] INFO: Testing url http://192.168.100.108/ iteration 30
+[2023-04-12 19:54:04] INFO: Take after page complete check screenshot
+[2023-04-12 19:54:05] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:54:06] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:54:08] INFO: Use the visual metrics portable script
+[2023-04-12 19:54:08] INFO: Get visual metrics from the video
+[2023-04-12 19:54:10] INFO: http://192.168.100.108/ TTFB: 198ms DOMContentLoaded: 282ms firstPaint: 271ms FCP: 271ms LCP: 271ms Load: 339ms CLS:0.0018
+[2023-04-12 19:54:10] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:54:10] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:54:11] INFO: Testing url http://192.168.100.108/ iteration 31
+[2023-04-12 19:54:19] INFO: Take after page complete check screenshot
+[2023-04-12 19:54:19] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:54:20] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:54:23] INFO: Use the visual metrics portable script
+[2023-04-12 19:54:23] INFO: Get visual metrics from the video
+[2023-04-12 19:54:24] INFO: http://192.168.100.108/ TTFB: 199ms DOMContentLoaded: 280ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 343ms CLS:0.0019
+[2023-04-12 19:54:24] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:54:25] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:54:25] INFO: Testing url http://192.168.100.108/ iteration 32
+[2023-04-12 19:54:33] INFO: Take after page complete check screenshot
+[2023-04-12 19:54:34] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:54:34] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:54:37] INFO: Use the visual metrics portable script
+[2023-04-12 19:54:37] INFO: Get visual metrics from the video
+[2023-04-12 19:54:38] INFO: http://192.168.100.108/ TTFB: 192ms DOMContentLoaded: 326ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 336ms CLS:0.0018
+[2023-04-12 19:54:38] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:54:39] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:54:39] INFO: Testing url http://192.168.100.108/ iteration 33
+[2023-04-12 19:54:47] INFO: Take after page complete check screenshot
+[2023-04-12 19:54:48] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:54:48] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:54:51] INFO: Use the visual metrics portable script
+[2023-04-12 19:54:51] INFO: Get visual metrics from the video
+[2023-04-12 19:54:53] INFO: http://192.168.100.108/ TTFB: 200ms DOMContentLoaded: 331ms firstPaint: 279ms FCP: 279ms LCP: 279ms Load: 349ms CLS:0.0019
+[2023-04-12 19:54:53] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:54:53] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:54:53] INFO: Testing url http://192.168.100.108/ iteration 34
+[2023-04-12 19:55:01] INFO: Take after page complete check screenshot
+[2023-04-12 19:55:02] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:55:03] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:55:05] INFO: Use the visual metrics portable script
+[2023-04-12 19:55:05] INFO: Get visual metrics from the video
+[2023-04-12 19:55:07] INFO: http://192.168.100.108/ TTFB: 219ms DOMContentLoaded: 323ms firstPaint: 297ms FCP: 297ms LCP: 297ms Load: 346ms CLS:0.0019
+[2023-04-12 19:55:07] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 330ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:55:07] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:55:07] INFO: Testing url http://192.168.100.108/ iteration 35
+[2023-04-12 19:55:16] INFO: Take after page complete check screenshot
+[2023-04-12 19:55:16] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:55:17] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:55:20] INFO: Use the visual metrics portable script
+[2023-04-12 19:55:20] INFO: Get visual metrics from the video
+[2023-04-12 19:55:21] INFO: http://192.168.100.108/ TTFB: 202ms DOMContentLoaded: 282ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 333ms CLS:0.0019
+[2023-04-12 19:55:21] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:55:22] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:55:22] INFO: Testing url http://192.168.100.108/ iteration 36
+[2023-04-12 19:55:30] INFO: Take after page complete check screenshot
+[2023-04-12 19:55:30] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:55:31] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:55:34] INFO: Use the visual metrics portable script
+[2023-04-12 19:55:34] INFO: Get visual metrics from the video
+[2023-04-12 19:55:35] INFO: http://192.168.100.108/ TTFB: 193ms DOMContentLoaded: 283ms firstPaint: 266ms FCP: 266ms LCP: 266ms Load: 318ms CLS:0.0019
+[2023-04-12 19:55:35] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:55:36] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:55:36] INFO: Testing url http://192.168.100.108/ iteration 37
+[2023-04-12 19:55:44] INFO: Take after page complete check screenshot
+[2023-04-12 19:55:45] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:55:45] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:55:48] INFO: Use the visual metrics portable script
+[2023-04-12 19:55:48] INFO: Get visual metrics from the video
+[2023-04-12 19:55:50] INFO: http://192.168.100.108/ TTFB: 203ms DOMContentLoaded: 284ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 336ms CLS:0.0019
+[2023-04-12 19:55:50] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:55:50] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:55:50] INFO: Testing url http://192.168.100.108/ iteration 38
+[2023-04-12 19:55:58] INFO: Take after page complete check screenshot
+[2023-04-12 19:55:59] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:56:00] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:56:02] INFO: Use the visual metrics portable script
+[2023-04-12 19:56:02] INFO: Get visual metrics from the video
+[2023-04-12 19:56:05] INFO: http://192.168.100.108/ TTFB: 199ms DOMContentLoaded: 322ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 331ms CLS:0.0019
+[2023-04-12 19:56:05] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 330ms VisualComplete85: 333ms LastVisualChange: 333ms
+[2023-04-12 19:56:05] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:56:05] INFO: Testing url http://192.168.100.108/ iteration 39
+[2023-04-12 19:56:13] INFO: Take after page complete check screenshot
+[2023-04-12 19:56:14] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:56:15] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:56:17] INFO: Use the visual metrics portable script
+[2023-04-12 19:56:17] INFO: Get visual metrics from the video
+[2023-04-12 19:56:19] INFO: http://192.168.100.108/ TTFB: 213ms DOMContentLoaded: 319ms firstPaint: 291ms FCP: 291ms LCP: 291ms Load: 358ms CLS:0.0019
+[2023-04-12 19:56:19] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 301ms VisualComplete85: 300ms LastVisualChange: 334ms
+[2023-04-12 19:56:20] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:56:20] INFO: Testing url http://192.168.100.108/ iteration 40
+[2023-04-12 19:56:28] INFO: Take after page complete check screenshot
+[2023-04-12 19:56:29] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:56:29] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:56:32] INFO: Use the visual metrics portable script
+[2023-04-12 19:56:32] INFO: Get visual metrics from the video
+[2023-04-12 19:56:34] INFO: http://192.168.100.108/ TTFB: 212ms DOMContentLoaded: 303ms firstPaint: 291ms FCP: 291ms LCP: 291ms Load: 354ms CLS:0.0018
+[2023-04-12 19:56:34] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:56:34] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:56:34] INFO: Testing url http://192.168.100.108/ iteration 41
+[2023-04-12 19:56:42] INFO: Take after page complete check screenshot
+[2023-04-12 19:56:43] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:56:44] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:56:46] INFO: Use the visual metrics portable script
+[2023-04-12 19:56:46] INFO: Get visual metrics from the video
+[2023-04-12 19:56:48] INFO: http://192.168.100.108/ TTFB: 210ms DOMContentLoaded: 291ms firstPaint: 291ms FCP: 291ms LCP: 291ms Load: 362ms CLS:0.0019
+[2023-04-12 19:56:48] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 359ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 19:56:48] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:56:49] INFO: Testing url http://192.168.100.108/ iteration 42
+[2023-04-12 19:56:57] INFO: Take after page complete check screenshot
+[2023-04-12 19:56:57] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:56:58] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:57:01] INFO: Use the visual metrics portable script
+[2023-04-12 19:57:01] INFO: Get visual metrics from the video
+[2023-04-12 19:57:02] INFO: http://192.168.100.108/ TTFB: 184ms DOMContentLoaded: 266ms firstPaint: 260ms FCP: 260ms LCP: 260ms Load: 314ms CLS:0.0018
+[2023-04-12 19:57:02] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:57:03] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:57:03] INFO: Testing url http://192.168.100.108/ iteration 43
+[2023-04-12 19:57:11] INFO: Take after page complete check screenshot
+[2023-04-12 19:57:12] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:57:12] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:57:15] INFO: Use the visual metrics portable script
+[2023-04-12 19:57:15] INFO: Get visual metrics from the video
+[2023-04-12 19:57:17] INFO: http://192.168.100.108/ TTFB: 195ms DOMContentLoaded: 279ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 326ms CLS:0.0019
+[2023-04-12 19:57:17] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:57:17] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:57:17] INFO: Testing url http://192.168.100.108/ iteration 44
+[2023-04-12 19:57:25] INFO: Take after page complete check screenshot
+[2023-04-12 19:57:26] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:57:27] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:57:29] INFO: Use the visual metrics portable script
+[2023-04-12 19:57:29] INFO: Get visual metrics from the video
+[2023-04-12 19:57:31] INFO: http://192.168.100.108/ TTFB: 209ms DOMContentLoaded: 293ms firstPaint: 285ms FCP: 285ms LCP: 285ms Load: 335ms CLS:0.0019
+[2023-04-12 19:57:31] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:57:31] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:57:31] INFO: Testing url http://192.168.100.108/ iteration 45
+[2023-04-12 19:57:40] INFO: Take after page complete check screenshot
+[2023-04-12 19:57:40] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:57:41] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:57:44] INFO: Use the visual metrics portable script
+[2023-04-12 19:57:44] INFO: Get visual metrics from the video
+[2023-04-12 19:57:45] INFO: http://192.168.100.108/ TTFB: 182ms DOMContentLoaded: 290ms firstPaint: 260ms FCP: 260ms LCP: 260ms Load: 327ms CLS:0.0018
+[2023-04-12 19:57:45] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:57:46] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:57:46] INFO: Testing url http://192.168.100.108/ iteration 46
+[2023-04-12 19:57:54] INFO: Take after page complete check screenshot
+[2023-04-12 19:57:54] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:57:55] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:57:58] INFO: Use the visual metrics portable script
+[2023-04-12 19:57:58] INFO: Get visual metrics from the video
+[2023-04-12 19:58:00] INFO: http://192.168.100.108/ TTFB: 185ms DOMContentLoaded: 288ms firstPaint: 266ms FCP: 266ms LCP: 266ms Load: 325ms CLS:0.0018
+[2023-04-12 19:58:00] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 268ms VisualComplete85: 267ms LastVisualChange: 334ms
+[2023-04-12 19:58:01] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:58:01] INFO: Testing url http://192.168.100.108/ iteration 47
+[2023-04-12 19:58:09] INFO: Take after page complete check screenshot
+[2023-04-12 19:58:09] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:58:10] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:58:13] INFO: Use the visual metrics portable script
+[2023-04-12 19:58:13] INFO: Get visual metrics from the video
+[2023-04-12 19:58:14] INFO: http://192.168.100.108/ TTFB: 194ms DOMContentLoaded: 292ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 341ms CLS:0.0019
+[2023-04-12 19:58:14] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 359ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 19:58:15] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:58:15] INFO: Testing url http://192.168.100.108/ iteration 48
+[2023-04-12 19:58:23] INFO: Take after page complete check screenshot
+[2023-04-12 19:58:24] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:58:24] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:58:27] INFO: Use the visual metrics portable script
+[2023-04-12 19:58:27] INFO: Get visual metrics from the video
+[2023-04-12 19:58:29] INFO: http://192.168.100.108/ TTFB: 179ms DOMContentLoaded: 268ms firstPaint: 254ms FCP: 254ms LCP: 254ms Load: 308ms CLS:0.0018
+[2023-04-12 19:58:29] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 330ms VisualComplete85: 333ms LastVisualChange: 333ms
+[2023-04-12 19:58:29] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:58:29] INFO: Testing url http://192.168.100.108/ iteration 49
+[2023-04-12 19:58:37] INFO: Take after page complete check screenshot
+[2023-04-12 19:58:38] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:58:39] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:58:41] INFO: Use the visual metrics portable script
+[2023-04-12 19:58:41] INFO: Get visual metrics from the video
+[2023-04-12 19:58:44] INFO: http://192.168.100.108/ TTFB: 207ms DOMContentLoaded: 291ms firstPaint: 283ms FCP: 283ms LCP: 283ms Load: 346ms CLS:0.0019
+[2023-04-12 19:58:44] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 361ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 19:58:44] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:58:44] INFO: Testing url http://192.168.100.108/ iteration 50
+[2023-04-12 19:58:52] INFO: Take after page complete check screenshot
+[2023-04-12 19:58:53] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:58:54] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:58:56] INFO: Use the visual metrics portable script
+[2023-04-12 19:58:56] INFO: Get visual metrics from the video
+[2023-04-12 19:58:58] INFO: http://192.168.100.108/ TTFB: 191ms DOMContentLoaded: 272ms firstPaint: 266ms FCP: 266ms LCP: 266ms Load: 321ms CLS:0.0019
+[2023-04-12 19:58:58] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 267ms VisualComplete85: 267ms LastVisualChange: 300ms
+[2023-04-12 19:58:59] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:58:59] INFO: Testing url http://192.168.100.108/ iteration 51
+[2023-04-12 19:59:07] INFO: Take after page complete check screenshot
+[2023-04-12 19:59:07] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:59:08] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:59:11] INFO: Use the visual metrics portable script
+[2023-04-12 19:59:11] INFO: Get visual metrics from the video
+[2023-04-12 19:59:12] INFO: http://192.168.100.108/ TTFB: 189ms DOMContentLoaded: 291ms firstPaint: 266ms FCP: 266ms LCP: 266ms Load: 319ms CLS:0.0018
+[2023-04-12 19:59:12] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 19:59:13] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:59:13] INFO: Testing url http://192.168.100.108/ iteration 52
+[2023-04-12 19:59:21] INFO: Take after page complete check screenshot
+[2023-04-12 19:59:22] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:59:22] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:59:25] INFO: Use the visual metrics portable script
+[2023-04-12 19:59:25] INFO: Get visual metrics from the video
+[2023-04-12 19:59:27] INFO: http://192.168.100.108/ TTFB: 193ms DOMContentLoaded: 276ms firstPaint: 270ms FCP: 270ms LCP: 270ms Load: 328ms CLS:0.0018
+[2023-04-12 19:59:27] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 267ms VisualComplete85: 267ms LastVisualChange: 300ms
+[2023-04-12 19:59:28] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:59:28] INFO: Testing url http://192.168.100.108/ iteration 53
+[2023-04-12 19:59:36] INFO: Take after page complete check screenshot
+[2023-04-12 19:59:36] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:59:37] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:59:40] INFO: Use the visual metrics portable script
+[2023-04-12 19:59:40] INFO: Get visual metrics from the video
+[2023-04-12 19:59:41] INFO: http://192.168.100.108/ TTFB: 194ms DOMContentLoaded: 286ms firstPaint: 266ms FCP: 266ms LCP: 266ms Load: 323ms CLS:0.0019
+[2023-04-12 19:59:41] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:59:42] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:59:42] INFO: Testing url http://192.168.100.108/ iteration 54
+[2023-04-12 19:59:50] INFO: Take after page complete check screenshot
+[2023-04-12 19:59:51] INFO: Take cumulative layout shift screenshot
+[2023-04-12 19:59:51] INFO: Take largest contentful paint screenshot
+[2023-04-12 19:59:54] INFO: Use the visual metrics portable script
+[2023-04-12 19:59:54] INFO: Get visual metrics from the video
+[2023-04-12 19:59:56] INFO: http://192.168.100.108/ TTFB: 206ms DOMContentLoaded: 291ms firstPaint: 284ms FCP: 284ms LCP: 284ms Load: 347ms CLS:0.0019
+[2023-04-12 19:59:56] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 19:59:57] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 19:59:57] INFO: Testing url http://192.168.100.108/ iteration 55
+[2023-04-12 20:00:05] INFO: Take after page complete check screenshot
+[2023-04-12 20:00:06] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:00:06] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:00:09] INFO: Use the visual metrics portable script
+[2023-04-12 20:00:09] INFO: Get visual metrics from the video
+[2023-04-12 20:00:11] INFO: http://192.168.100.108/ TTFB: 196ms DOMContentLoaded: 290ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 321ms CLS:0.0018
+[2023-04-12 20:00:11] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 267ms VisualComplete85: 267ms LastVisualChange: 300ms
+[2023-04-12 20:00:11] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:00:11] INFO: Testing url http://192.168.100.108/ iteration 56
+[2023-04-12 20:00:19] INFO: Take after page complete check screenshot
+[2023-04-12 20:00:20] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:00:21] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:00:23] INFO: Use the visual metrics portable script
+[2023-04-12 20:00:23] INFO: Get visual metrics from the video
+[2023-04-12 20:00:26] INFO: http://192.168.100.108/ TTFB: 185ms DOMContentLoaded: 316ms firstPaint: 259ms FCP: 259ms LCP: 259ms Load: 325ms CLS:0.0019
+[2023-04-12 20:00:26] INFO: VisualMetrics: FirstVisualChange: 234ms SpeedIndex: 294ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 20:00:26] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:00:26] INFO: Testing url http://192.168.100.108/ iteration 57
+[2023-04-12 20:00:34] INFO: Take after page complete check screenshot
+[2023-04-12 20:00:35] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:00:36] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:00:38] INFO: Use the visual metrics portable script
+[2023-04-12 20:00:38] INFO: Get visual metrics from the video
+[2023-04-12 20:00:40] INFO: http://192.168.100.108/ TTFB: 204ms DOMContentLoaded: 356ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 356ms CLS:0.0019
+[2023-04-12 20:00:40] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:00:40] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:00:41] INFO: Testing url http://192.168.100.108/ iteration 58
+[2023-04-12 20:00:49] INFO: Take after page complete check screenshot
+[2023-04-12 20:00:49] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:00:50] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:00:53] INFO: Use the visual metrics portable script
+[2023-04-12 20:00:53] INFO: Get visual metrics from the video
+[2023-04-12 20:00:55] INFO: http://192.168.100.108/ TTFB: 192ms DOMContentLoaded: 320ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 349ms CLS:0.0018
+[2023-04-12 20:00:55] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:00:55] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:00:55] INFO: Testing url http://192.168.100.108/ iteration 59
+[2023-04-12 20:01:03] INFO: Take after page complete check screenshot
+[2023-04-12 20:01:04] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:01:05] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:01:07] INFO: Use the visual metrics portable script
+[2023-04-12 20:01:07] INFO: Get visual metrics from the video
+[2023-04-12 20:01:09] INFO: http://192.168.100.108/ TTFB: 222ms DOMContentLoaded: 312ms firstPaint: 309ms FCP: 309ms LCP: 309ms Load: 355ms CLS:0.0019
+[2023-04-12 20:01:09] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 331ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:01:09] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:01:09] INFO: Testing url http://192.168.100.108/ iteration 60
+[2023-04-12 20:01:18] INFO: Take after page complete check screenshot
+[2023-04-12 20:01:18] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:01:19] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:01:22] INFO: Use the visual metrics portable script
+[2023-04-12 20:01:22] INFO: Get visual metrics from the video
+[2023-04-12 20:01:23] INFO: http://192.168.100.108/ TTFB: 196ms DOMContentLoaded: 357ms firstPaint: 266ms FCP: 266ms LCP: 266ms Load: 358ms CLS:0.0019
+[2023-04-12 20:01:23] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 20:01:24] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:01:24] INFO: Testing url http://192.168.100.108/ iteration 61
+[2023-04-12 20:01:32] INFO: Take after page complete check screenshot
+[2023-04-12 20:01:33] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:01:33] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:01:36] INFO: Use the visual metrics portable script
+[2023-04-12 20:01:36] INFO: Get visual metrics from the video
+[2023-04-12 20:01:38] INFO: http://192.168.100.108/ TTFB: 201ms DOMContentLoaded: 286ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 330ms CLS:0.0019
+[2023-04-12 20:01:38] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:01:38] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:01:39] INFO: Testing url http://192.168.100.108/ iteration 62
+[2023-04-12 20:01:47] INFO: Take after page complete check screenshot
+[2023-04-12 20:01:47] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:01:48] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:01:51] INFO: Use the visual metrics portable script
+[2023-04-12 20:01:51] INFO: Get visual metrics from the video
+[2023-04-12 20:01:52] INFO: http://192.168.100.108/ TTFB: 199ms DOMContentLoaded: 280ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 346ms CLS:0.0019
+[2023-04-12 20:01:52] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 20:01:53] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:01:53] INFO: Testing url http://192.168.100.108/ iteration 63
+[2023-04-12 20:02:01] INFO: Take after page complete check screenshot
+[2023-04-12 20:02:02] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:02:02] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:02:05] INFO: Use the visual metrics portable script
+[2023-04-12 20:02:05] INFO: Get visual metrics from the video
+[2023-04-12 20:02:07] INFO: http://192.168.100.108/ TTFB: 228ms DOMContentLoaded: 335ms firstPaint: 303ms FCP: 303ms LCP: 303ms Load: 364ms CLS:0.0018
+[2023-04-12 20:02:07] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 331ms VisualComplete85: 334ms LastVisualChange: 367ms
+[2023-04-12 20:02:08] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:02:08] INFO: Testing url http://192.168.100.108/ iteration 64
+[2023-04-12 20:02:16] INFO: Take after page complete check screenshot
+[2023-04-12 20:02:16] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:02:17] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:02:20] INFO: Use the visual metrics portable script
+[2023-04-12 20:02:20] INFO: Get visual metrics from the video
+[2023-04-12 20:02:22] INFO: http://192.168.100.108/ TTFB: 204ms DOMContentLoaded: 338ms firstPaint: 284ms FCP: 284ms LCP: 284ms Load: 347ms CLS:0.0018
+[2023-04-12 20:02:22] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 331ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:02:22] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:02:22] INFO: Testing url http://192.168.100.108/ iteration 65
+[2023-04-12 20:02:30] INFO: Take after page complete check screenshot
+[2023-04-12 20:02:31] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:02:32] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:02:34] INFO: Use the visual metrics portable script
+[2023-04-12 20:02:34] INFO: Get visual metrics from the video
+[2023-04-12 20:02:36] INFO: http://192.168.100.108/ TTFB: 195ms DOMContentLoaded: 277ms firstPaint: 271ms FCP: 271ms LCP: 271ms Load: 334ms CLS:0.0019
+[2023-04-12 20:02:36] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:02:36] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:02:36] INFO: Testing url http://192.168.100.108/ iteration 66
+[2023-04-12 20:02:45] INFO: Take after page complete check screenshot
+[2023-04-12 20:02:45] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:02:46] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:02:49] INFO: Use the visual metrics portable script
+[2023-04-12 20:02:49] INFO: Get visual metrics from the video
+[2023-04-12 20:02:50] INFO: http://192.168.100.108/ TTFB: 207ms DOMContentLoaded: 293ms firstPaint: 291ms FCP: 291ms LCP: 291ms Load: 334ms CLS:0.0019
+[2023-04-12 20:02:50] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 300ms VisualComplete85: 300ms LastVisualChange: 334ms
+[2023-04-12 20:02:51] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:02:51] INFO: Testing url http://192.168.100.108/ iteration 67
+[2023-04-12 20:02:59] INFO: Take after page complete check screenshot
+[2023-04-12 20:02:59] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:03:00] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:03:03] INFO: Use the visual metrics portable script
+[2023-04-12 20:03:03] INFO: Get visual metrics from the video
+[2023-04-12 20:03:05] INFO: http://192.168.100.108/ TTFB: 207ms DOMContentLoaded: 304ms firstPaint: 284ms FCP: 284ms LCP: 284ms Load: 365ms CLS:0.0019
+[2023-04-12 20:03:05] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 389ms VisualComplete85: 400ms LastVisualChange: 400ms
+[2023-04-12 20:03:05] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:03:05] INFO: Testing url http://192.168.100.108/ iteration 68
+[2023-04-12 20:03:13] INFO: Take after page complete check screenshot
+[2023-04-12 20:03:14] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:03:15] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:03:17] INFO: Use the visual metrics portable script
+[2023-04-12 20:03:17] INFO: Get visual metrics from the video
+[2023-04-12 20:03:19] INFO: http://192.168.100.108/ TTFB: 201ms DOMContentLoaded: 291ms firstPaint: 279ms FCP: 279ms LCP: 279ms Load: 346ms CLS:0.0019
+[2023-04-12 20:03:19] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 298ms VisualComplete85: 300ms LastVisualChange: 334ms
+[2023-04-12 20:03:19] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:03:19] INFO: Testing url http://192.168.100.108/ iteration 69
+[2023-04-12 20:03:28] INFO: Take after page complete check screenshot
+[2023-04-12 20:03:28] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:03:29] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:03:32] INFO: Use the visual metrics portable script
+[2023-04-12 20:03:32] INFO: Get visual metrics from the video
+[2023-04-12 20:03:33] INFO: http://192.168.100.108/ TTFB: 221ms DOMContentLoaded: 303ms firstPaint: 296ms FCP: 296ms LCP: 296ms Load: 363ms CLS:0.0019
+[2023-04-12 20:03:33] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 331ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:03:34] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:03:34] INFO: Testing url http://192.168.100.108/ iteration 70
+[2023-04-12 20:03:42] INFO: Take after page complete check screenshot
+[2023-04-12 20:03:42] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:03:43] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:03:46] INFO: Use the visual metrics portable script
+[2023-04-12 20:03:46] INFO: Get visual metrics from the video
+[2023-04-12 20:03:48] INFO: http://192.168.100.108/ TTFB: 203ms DOMContentLoaded: 301ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 340ms CLS:0.0019
+[2023-04-12 20:03:48] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 359ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 20:03:48] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:03:48] INFO: Testing url http://192.168.100.108/ iteration 71
+[2023-04-12 20:03:56] INFO: Take after page complete check screenshot
+[2023-04-12 20:03:57] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:03:58] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:04:00] INFO: Use the visual metrics portable script
+[2023-04-12 20:04:00] INFO: Get visual metrics from the video
+[2023-04-12 20:04:02] INFO: http://192.168.100.108/ TTFB: 199ms DOMContentLoaded: 282ms firstPaint: 277ms FCP: 277ms LCP: 277ms Load: 334ms CLS:0.0018
+[2023-04-12 20:04:02] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:04:02] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:04:03] INFO: Testing url http://192.168.100.108/ iteration 72
+[2023-04-12 20:04:11] INFO: Take after page complete check screenshot
+[2023-04-12 20:04:11] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:04:12] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:04:15] INFO: Use the visual metrics portable script
+[2023-04-12 20:04:15] INFO: Get visual metrics from the video
+[2023-04-12 20:04:16] INFO: http://192.168.100.108/ TTFB: 207ms DOMContentLoaded: 290ms firstPaint: 284ms FCP: 284ms LCP: 284ms Load: 343ms CLS:0.0019
+[2023-04-12 20:04:16] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 301ms VisualComplete85: 300ms LastVisualChange: 334ms
+[2023-04-12 20:04:17] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:04:17] INFO: Testing url http://192.168.100.108/ iteration 73
+[2023-04-12 20:04:25] INFO: Take after page complete check screenshot
+[2023-04-12 20:04:26] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:04:26] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:04:29] INFO: Use the visual metrics portable script
+[2023-04-12 20:04:29] INFO: Get visual metrics from the video
+[2023-04-12 20:04:31] INFO: http://192.168.100.108/ TTFB: 205ms DOMContentLoaded: 361ms firstPaint: 284ms FCP: 284ms LCP: 284ms Load: 362ms CLS:0.0019
+[2023-04-12 20:04:31] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:04:31] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:04:31] INFO: Testing url http://192.168.100.108/ iteration 74
+[2023-04-12 20:04:39] INFO: Take after page complete check screenshot
+[2023-04-12 20:04:40] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:04:41] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:04:43] INFO: Use the visual metrics portable script
+[2023-04-12 20:04:43] INFO: Get visual metrics from the video
+[2023-04-12 20:04:45] INFO: http://192.168.100.108/ TTFB: 213ms DOMContentLoaded: 324ms firstPaint: 285ms FCP: 285ms LCP: 285ms Load: 342ms CLS:0.0019
+[2023-04-12 20:04:45] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:04:45] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:04:45] INFO: Testing url http://192.168.100.108/ iteration 75
+[2023-04-12 20:04:54] INFO: Take after page complete check screenshot
+[2023-04-12 20:04:54] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:04:55] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:04:58] INFO: Use the visual metrics portable script
+[2023-04-12 20:04:58] INFO: Get visual metrics from the video
+[2023-04-12 20:04:59] INFO: http://192.168.100.108/ TTFB: 196ms DOMContentLoaded: 287ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 348ms CLS:0.0019
+[2023-04-12 20:04:59] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 20:05:00] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:05:00] INFO: Testing url http://192.168.100.108/ iteration 76
+[2023-04-12 20:05:08] INFO: Take after page complete check screenshot
+[2023-04-12 20:05:08] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:05:09] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:05:12] INFO: Use the visual metrics portable script
+[2023-04-12 20:05:12] INFO: Get visual metrics from the video
+[2023-04-12 20:05:13] INFO: http://192.168.100.108/ TTFB: 203ms DOMContentLoaded: 289ms firstPaint: 282ms FCP: 282ms LCP: 282ms Load: 346ms CLS:0.0019
+[2023-04-12 20:05:13] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 361ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 20:05:14] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:05:14] INFO: Testing url http://192.168.100.108/ iteration 77
+[2023-04-12 20:05:22] INFO: Take after page complete check screenshot
+[2023-04-12 20:05:23] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:05:23] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:05:26] INFO: Use the visual metrics portable script
+[2023-04-12 20:05:26] INFO: Get visual metrics from the video
+[2023-04-12 20:05:28] INFO: http://192.168.100.108/ TTFB: 199ms DOMContentLoaded: 294ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 325ms CLS:0.0018
+[2023-04-12 20:05:28] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 20:05:29] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:05:29] INFO: Testing url http://192.168.100.108/ iteration 78
+[2023-04-12 20:05:37] INFO: Take after page complete check screenshot
+[2023-04-12 20:05:37] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:05:38] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:05:41] INFO: Use the visual metrics portable script
+[2023-04-12 20:05:41] INFO: Get visual metrics from the video
+[2023-04-12 20:05:42] INFO: http://192.168.100.108/ TTFB: 206ms DOMContentLoaded: 310ms firstPaint: 283ms FCP: 283ms LCP: 283ms Load: 360ms CLS:0.0019
+[2023-04-12 20:05:42] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 300ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 20:05:43] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:05:43] INFO: Testing url http://192.168.100.108/ iteration 79
+[2023-04-12 20:05:51] INFO: Take after page complete check screenshot
+[2023-04-12 20:05:52] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:05:52] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:05:55] INFO: Use the visual metrics portable script
+[2023-04-12 20:05:55] INFO: Get visual metrics from the video
+[2023-04-12 20:05:58] INFO: http://192.168.100.108/ TTFB: 217ms DOMContentLoaded: 302ms firstPaint: 297ms FCP: 297ms LCP: 297ms Load: 354ms CLS:0.0019
+[2023-04-12 20:05:58] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 361ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 20:05:58] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:05:58] INFO: Testing url http://192.168.100.108/ iteration 80
+[2023-04-12 20:06:07] INFO: Take after page complete check screenshot
+[2023-04-12 20:06:07] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:06:08] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:06:10] INFO: Use the visual metrics portable script
+[2023-04-12 20:06:10] INFO: Get visual metrics from the video
+[2023-04-12 20:06:13] INFO: http://192.168.100.108/ TTFB: 201ms DOMContentLoaded: 286ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 341ms CLS:0.0019
+[2023-04-12 20:06:13] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 298ms VisualComplete85: 300ms LastVisualChange: 334ms
+[2023-04-12 20:06:13] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:06:13] INFO: Testing url http://192.168.100.108/ iteration 81
+[2023-04-12 20:06:21] INFO: Take after page complete check screenshot
+[2023-04-12 20:06:22] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:06:23] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:06:25] INFO: Use the visual metrics portable script
+[2023-04-12 20:06:25] INFO: Get visual metrics from the video
+[2023-04-12 20:06:27] INFO: http://192.168.100.108/ TTFB: 206ms DOMContentLoaded: 330ms firstPaint: 284ms FCP: 284ms LCP: 284ms Load: 350ms CLS:0.0019
+[2023-04-12 20:06:27] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 327ms VisualComplete85: 333ms LastVisualChange: 333ms
+[2023-04-12 20:06:28] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:06:28] INFO: Testing url http://192.168.100.108/ iteration 82
+[2023-04-12 20:06:36] INFO: Take after page complete check screenshot
+[2023-04-12 20:06:37] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:06:37] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:06:40] INFO: Use the visual metrics portable script
+[2023-04-12 20:06:40] INFO: Get visual metrics from the video
+[2023-04-12 20:06:42] INFO: http://192.168.100.108/ TTFB: 197ms DOMContentLoaded: 293ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 335ms CLS:0.0019
+[2023-04-12 20:06:42] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:06:42] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:06:43] INFO: Testing url http://192.168.100.108/ iteration 83
+[2023-04-12 20:06:51] INFO: Take after page complete check screenshot
+[2023-04-12 20:06:51] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:06:52] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:06:55] INFO: Use the visual metrics portable script
+[2023-04-12 20:06:55] INFO: Get visual metrics from the video
+[2023-04-12 20:06:56] INFO: http://192.168.100.108/ TTFB: 200ms DOMContentLoaded: 282ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 330ms CLS:0.0019
+[2023-04-12 20:06:56] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 359ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 20:06:57] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:06:57] INFO: Testing url http://192.168.100.108/ iteration 84
+[2023-04-12 20:07:05] INFO: Take after page complete check screenshot
+[2023-04-12 20:07:06] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:07:06] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:07:09] INFO: Use the visual metrics portable script
+[2023-04-12 20:07:09] INFO: Get visual metrics from the video
+[2023-04-12 20:07:11] INFO: http://192.168.100.108/ TTFB: 228ms DOMContentLoaded: 311ms firstPaint: 303ms FCP: 303ms LCP: 303ms Load: 354ms CLS:0.0018
+[2023-04-12 20:07:11] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 361ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 20:07:11] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:07:11] INFO: Testing url http://192.168.100.108/ iteration 85
+[2023-04-12 20:07:19] INFO: Take after page complete check screenshot
+[2023-04-12 20:07:20] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:07:21] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:07:23] INFO: Use the visual metrics portable script
+[2023-04-12 20:07:23] INFO: Get visual metrics from the video
+[2023-04-12 20:07:25] INFO: http://192.168.100.108/ TTFB: 203ms DOMContentLoaded: 287ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 329ms CLS:0.0019
+[2023-04-12 20:07:25] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 20:07:25] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:07:25] INFO: Testing url http://192.168.100.108/ iteration 86
+[2023-04-12 20:07:34] INFO: Take after page complete check screenshot
+[2023-04-12 20:07:34] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:07:35] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:07:38] INFO: Use the visual metrics portable script
+[2023-04-12 20:07:38] INFO: Get visual metrics from the video
+[2023-04-12 20:07:39] INFO: http://192.168.100.108/ TTFB: 196ms DOMContentLoaded: 327ms firstPaint: 276ms FCP: 276ms LCP: 276ms Load: 336ms CLS:0.0019
+[2023-04-12 20:07:39] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:07:40] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:07:40] INFO: Testing url http://192.168.100.108/ iteration 87
+[2023-04-12 20:07:48] INFO: Take after page complete check screenshot
+[2023-04-12 20:07:48] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:07:49] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:07:52] INFO: Use the visual metrics portable script
+[2023-04-12 20:07:52] INFO: Get visual metrics from the video
+[2023-04-12 20:07:53] INFO: http://192.168.100.108/ TTFB: 201ms DOMContentLoaded: 283ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 325ms CLS:0.0019
+[2023-04-12 20:07:53] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 20:07:54] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:07:54] INFO: Testing url http://192.168.100.108/ iteration 88
+[2023-04-12 20:08:02] INFO: Take after page complete check screenshot
+[2023-04-12 20:08:03] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:08:03] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:08:06] INFO: Use the visual metrics portable script
+[2023-04-12 20:08:06] INFO: Get visual metrics from the video
+[2023-04-12 20:08:08] INFO: http://192.168.100.108/ TTFB: 201ms DOMContentLoaded: 318ms firstPaint: 279ms FCP: 279ms LCP: 279ms Load: 337ms CLS:0.0019
+[2023-04-12 20:08:08] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 330ms VisualComplete85: 333ms LastVisualChange: 333ms
+[2023-04-12 20:08:08] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:08:08] INFO: Testing url http://192.168.100.108/ iteration 89
+[2023-04-12 20:08:16] INFO: Take after page complete check screenshot
+[2023-04-12 20:08:17] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:08:18] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:08:20] INFO: Use the visual metrics portable script
+[2023-04-12 20:08:20] INFO: Get visual metrics from the video
+[2023-04-12 20:08:22] INFO: http://192.168.100.108/ TTFB: 214ms DOMContentLoaded: 326ms firstPaint: 290ms FCP: 290ms LCP: 290ms Load: 348ms CLS:0.0018
+[2023-04-12 20:08:22] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 300ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 20:08:22] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:08:22] INFO: Testing url http://192.168.100.108/ iteration 90
+[2023-04-12 20:08:31] INFO: Take after page complete check screenshot
+[2023-04-12 20:08:31] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:08:32] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:08:35] INFO: Use the visual metrics portable script
+[2023-04-12 20:08:35] INFO: Get visual metrics from the video
+[2023-04-12 20:08:37] INFO: http://192.168.100.108/ TTFB: 204ms DOMContentLoaded: 293ms firstPaint: 289ms FCP: 289ms LCP: 289ms Load: 354ms CLS:0.0019
+[2023-04-12 20:08:37] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 298ms VisualComplete85: 300ms LastVisualChange: 334ms
+[2023-04-12 20:08:37] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:08:37] INFO: Testing url http://192.168.100.108/ iteration 91
+[2023-04-12 20:08:46] INFO: Take after page complete check screenshot
+[2023-04-12 20:08:46] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:08:47] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:08:50] INFO: Use the visual metrics portable script
+[2023-04-12 20:08:50] INFO: Get visual metrics from the video
+[2023-04-12 20:08:52] INFO: http://192.168.100.108/ TTFB: 203ms DOMContentLoaded: 286ms firstPaint: 277ms FCP: 277ms LCP: 277ms Load: 346ms CLS:0.0019
+[2023-04-12 20:08:52] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 20:08:52] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:08:52] INFO: Testing url http://192.168.100.108/ iteration 92
+[2023-04-12 20:09:00] INFO: Take after page complete check screenshot
+[2023-04-12 20:09:01] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:09:02] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:09:04] INFO: Use the visual metrics portable script
+[2023-04-12 20:09:04] INFO: Get visual metrics from the video
+[2023-04-12 20:09:06] INFO: http://192.168.100.108/ TTFB: 195ms DOMContentLoaded: 310ms firstPaint: 271ms FCP: 271ms LCP: 271ms Load: 334ms CLS:0.0019
+[2023-04-12 20:09:06] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 20:09:06] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:09:07] INFO: Testing url http://192.168.100.108/ iteration 93
+[2023-04-12 20:09:15] INFO: Take after page complete check screenshot
+[2023-04-12 20:09:15] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:09:16] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:09:19] INFO: Use the visual metrics portable script
+[2023-04-12 20:09:19] INFO: Get visual metrics from the video
+[2023-04-12 20:09:20] INFO: http://192.168.100.108/ TTFB: 207ms DOMContentLoaded: 292ms firstPaint: 285ms FCP: 285ms LCP: 285ms Load: 334ms CLS:0.0019
+[2023-04-12 20:09:20] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:09:21] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:09:21] INFO: Testing url http://192.168.100.108/ iteration 94
+[2023-04-12 20:09:29] INFO: Take after page complete check screenshot
+[2023-04-12 20:09:30] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:09:30] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:09:33] INFO: Use the visual metrics portable script
+[2023-04-12 20:09:33] INFO: Get visual metrics from the video
+[2023-04-12 20:09:35] INFO: http://192.168.100.108/ TTFB: 215ms DOMContentLoaded: 295ms firstPaint: 290ms FCP: 290ms LCP: 290ms Load: 352ms CLS:0.0019
+[2023-04-12 20:09:35] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 301ms VisualComplete85: 300ms LastVisualChange: 367ms
+[2023-04-12 20:09:35] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:09:35] INFO: Testing url http://192.168.100.108/ iteration 95
+[2023-04-12 20:09:43] INFO: Take after page complete check screenshot
+[2023-04-12 20:09:44] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:09:44] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:09:47] INFO: Use the visual metrics portable script
+[2023-04-12 20:09:47] INFO: Get visual metrics from the video
+[2023-04-12 20:09:49] INFO: http://192.168.100.108/ TTFB: 201ms DOMContentLoaded: 299ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 338ms CLS:0.0019
+[2023-04-12 20:09:49] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 298ms VisualComplete85: 300ms LastVisualChange: 334ms
+[2023-04-12 20:09:49] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:09:49] INFO: Testing url http://192.168.100.108/ iteration 96
+[2023-04-12 20:09:58] INFO: Take after page complete check screenshot
+[2023-04-12 20:09:58] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:09:59] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:10:02] INFO: Use the visual metrics portable script
+[2023-04-12 20:10:02] INFO: Get visual metrics from the video
+[2023-04-12 20:10:03] INFO: http://192.168.100.108/ TTFB: 204ms DOMContentLoaded: 362ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 363ms CLS:0.0019
+[2023-04-12 20:10:03] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 20:10:04] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:10:04] INFO: Testing url http://192.168.100.108/ iteration 97
+[2023-04-12 20:10:12] INFO: Take after page complete check screenshot
+[2023-04-12 20:10:13] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:10:13] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:10:16] INFO: Use the visual metrics portable script
+[2023-04-12 20:10:16] INFO: Get visual metrics from the video
+[2023-04-12 20:10:18] INFO: http://192.168.100.108/ TTFB: 197ms DOMContentLoaded: 359ms firstPaint: 272ms FCP: 272ms LCP: 272ms Load: 360ms CLS:0.0019
+[2023-04-12 20:10:18] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 361ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 20:10:18] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:10:18] INFO: Testing url http://192.168.100.108/ iteration 98
+[2023-04-12 20:10:26] INFO: Take after page complete check screenshot
+[2023-04-12 20:10:27] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:10:28] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:10:30] INFO: Use the visual metrics portable script
+[2023-04-12 20:10:30] INFO: Get visual metrics from the video
+[2023-04-12 20:10:32] INFO: http://192.168.100.108/ TTFB: 203ms DOMContentLoaded: 314ms firstPaint: 278ms FCP: 278ms LCP: 278ms Load: 338ms CLS:0.0019
+[2023-04-12 20:10:32] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 297ms VisualComplete85: 300ms LastVisualChange: 300ms
+[2023-04-12 20:10:32] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:10:32] INFO: Testing url http://192.168.100.108/ iteration 99
+[2023-04-12 20:10:41] INFO: Take after page complete check screenshot
+[2023-04-12 20:10:41] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:10:42] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:10:45] INFO: Use the visual metrics portable script
+[2023-04-12 20:10:45] INFO: Get visual metrics from the video
+[2023-04-12 20:10:46] INFO: http://192.168.100.108/ TTFB: 219ms DOMContentLoaded: 333ms firstPaint: 291ms FCP: 291ms LCP: 291ms Load: 351ms CLS:0.0019
+[2023-04-12 20:10:46] INFO: VisualMetrics: FirstVisualChange: 300ms SpeedIndex: 361ms VisualComplete85: 367ms LastVisualChange: 367ms
+[2023-04-12 20:10:47] INFO: Use Chrome trace categories: -*,disabled-by-default-lighthouse,v8,v8.execute,blink.user_timing,devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack
+[2023-04-12 20:10:47] INFO: Testing url http://192.168.100.108/ iteration 100
+[2023-04-12 20:10:55] INFO: Take after page complete check screenshot
+[2023-04-12 20:10:55] INFO: Take cumulative layout shift screenshot
+[2023-04-12 20:10:56] INFO: Take largest contentful paint screenshot
+[2023-04-12 20:10:59] INFO: Use the visual metrics portable script
+[2023-04-12 20:10:59] INFO: Get visual metrics from the video
+[2023-04-12 20:11:01] INFO: http://192.168.100.108/ TTFB: 196ms DOMContentLoaded: 316ms firstPaint: 279ms FCP: 279ms LCP: 279ms Load: 350ms CLS:0.0018
+[2023-04-12 20:11:01] INFO: VisualMetrics: FirstVisualChange: 267ms SpeedIndex: 328ms VisualComplete85: 334ms LastVisualChange: 334ms
+[2023-04-12 20:11:01] INFO: http://192.168.100.108/ 40 requests, TTFB: 201ms (σ38.00ms 18.4%), firstPaint: 278ms (σ38.00ms 13.5%), firstVisualChange: 267ms (σ39.00ms 14.0%), FCP: 278ms (σ38.00ms 13.5%), DOMContentLoaded: 295ms (σ43.00ms 14.1%), LCP: 278ms (σ38.00ms 13.5%), CLS: 0.0019 (σ0.00 4.1%), TBT: 0ms (σ0.00ms 0%), CPUBenchmark: 33ms (σ1.00ms 1.6%), Load: 341ms (σ40.00ms 11.6%), speedIndex: 301ms (σ46.00ms 14.3%), visualComplete85: 300ms (σ47.00ms 14.5%), lastVisualChange: 334ms (σ44.00ms 13.4%) (100 runs)
