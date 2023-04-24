@@ -17,14 +17,6 @@
   - Grafana k6
     - [Desktop]()
 </details>
-<details><summary><del>L3 - Jamstack (Netlify Local Development Environment))</del></summary>
-
-  - Sitespeed.io
-    - <del>[Desktop]()<br></del>
-    - <del>[Mobile]()</del>
-  - Grafana k6
-    - <del>[Desktop]()</del>
-</details>
 <details><summary>L4 - Jamstack with LAMP Stack (WSL2)</summary>
 
   - Sitespeed.io
