@@ -14,25 +14,16 @@ const envNameMap = {
   L9: 'L9 - Jamstack with LEMP Stack (WSL2)',
 };
 
-export const options = {
-  scenarios: {
-    spike: {
-      executor: 'ramping-arrival-rate',
-      preAllocatedVUs: 500,
-      timeUnit: '1s',
-      stages: [
-        { duration: '2m', target: 10 },
-        { duration: '5m', target: 10 },
-        { duration: '2m', target: 20 }, 
-        { duration: '5m', target: 20 },
-        { duration: '2m', target: 30 },
-        { duration: '5m', target: 30 },
-        { duration: '2m', target: 40 },
-        { duration: '5m', target: 40 },
-        { duration: '10m', target: 0 },
-        // 38m
-      ],
-    },
+export let options = {
+  stages: [
+    { duration: '5m', target: 100 },
+    { duration: '10m', target: 100 },
+    { duration: '5m', target: 0 },
+    // 15m
+  ],
+
+  thresholds: {
+    'http_req_duration': ['p(99)<1500'],
   },
 };
 
@@ -43,6 +34,7 @@ export default function () {
     'content type is text/html': (r) => r.headers['Content-Type'].includes('text/html'),
     'verify homepage text': (r) => r.body.includes('Lorem ipsum dolor'),
   });
+  sleep(1);
 }
 
 function getFullEnvName(envAlias) {
@@ -52,7 +44,7 @@ function getFullEnvName(envAlias) {
 export function handleSummary(data) {
   const fullEnvName = getFullEnvName(__ENV.ENVNAME);
   return {
-    [`reports/${fullEnvName}.html`]: htmlReport(data, {title: `[Stress Test | ${fullEnvName}]`}),
+    [`reports/${fullEnvName}.html`]: htmlReport(data, {title: `[Load Test 1 | ${fullEnvName}]`}),
     stdout: textSummary(data, { indent: ' ', enableColors: true }),
   };
 }

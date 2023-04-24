@@ -1,17 +1,46 @@
 import http from 'k6/http';
-import { sleep } from 'k6';
+import { check, sleep } from 'k6';
+import { htmlReport } from 'https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js';
+import { textSummary } from 'https://jslib.k6.io/k6-summary/0.0.1/index.js'
+
+const envNameMap = {
+  L1: 'L1 - WordPress with LAMP Stack (VM)',
+  L2: 'L2 - WordPress with LAMP Stack (WSL2)',
+  L4: 'L4 - Jamstack with LAMP Stack (WSL2)',
+  L5: 'L5 - Jamstack with LAMP Stack (VM)',
+  L6: 'L6 - WordPress with LEMP Stack (VM)',
+  L7: 'L7 - Jamstack with LEMP Stack (VM)',
+  L8: 'L8 - WordPress with LEMP Stack (WSL2)',
+  L9: 'L9 - Jamstack with LEMP Stack (WSL2)',
+};
 
 export let options = {
   stages: [
-    { duration: '2h', target: 1 }, // ramp up to 1 VU and hold for 2 hours
-
-    { duration: '2m', target: 400 }, // ramp up to 400 users
-    { duration: '1h56m', target: 400 }, // stay at 400 for ~2 hours
-    { duration: '2m', target: 0 }, // scale down. (optional)
+    { duration: '2m', target: 400 },
+    { duration: '3h56m', target: 400 },
+    { duration: '2m', target: 0 },
+    // 4h
   ],
 };
 
 export default function () {
-  http.get(`http://${__ENV.IP_ADDRESS}/`);
-  sleep(5); // wait for 5 seconds before sending the next request
+  const res = http.get(`http://${__ENV.IP_ADDRESS}`);
+  check(res, {
+    'status is 200': (r) => r.status === 200,
+    'content type is text/html': (r) => r.headers['Content-Type'].includes('text/html'),
+    'verify homepage text': (r) => r.body.includes('Lorem ipsum dolor'),
+  });
+  sleep(1);
+}
+
+function getFullEnvName(envAlias) {
+  return envNameMap[envAlias] || envAlias;
+}
+
+export function handleSummary(data) {
+  const fullEnvName = getFullEnvName(__ENV.ENVNAME);
+  return {
+    [`reports/${fullEnvName}.html`]: htmlReport(data, {title: `[Spike Test | ${fullEnvName}]`}),
+    stdout: textSummary(data, { indent: ' ', enableColors: true }),
+  };
 }
