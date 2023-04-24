@@ -1,0 +1,38 @@
+
+          /\      |‾‾| /‾‾/   /‾‾/
+     /\  /  \     |  |/  /   /  /
+    /  \/    \    |     (   /   ‾‾\
+   /          \   |  |\  \ |  (‾)  |
+  / __________ \  |__| \__\ \_____/ .io
+
+  execution: local
+     script: smokeTest.js
+     output: csv (csv/L5-smokeTest.csv)
+
+  scenarios: (100.00%) 1 scenario, 1 max VUs, 1m30s max duration (incl. graceful stop):
+           * default: 1 looping VUs for 1m0s (gracefulStop: 30s)
+
+INFO[0061] [k6-reporter v2.3.0] Generating HTML summary report  source=console
+     ✓ status is 200
+     ✓ content type is text/html
+     ✓ verify homepage text
+
+     checks.........................: 100.00% ✓ 180     ✗ 0
+     data_received..................: 7.0 MB  116 kB/s
+     data_sent......................: 4.9 kB  80 B/s
+     http_req_blocked...............: avg=8.77µs   min=0s      med=0s       max=526.5µs p(90)=0s       p(95)=0s
+     http_req_connecting............: avg=8.77µs   min=0s      med=0s       max=526.5µs p(90)=0s       p(95)=0s
+   ✓ http_req_duration..............: avg=8.58ms   min=6.65ms  med=7.67ms   max=18.13ms p(90)=10.97ms  p(95)=16.78ms
+       { expected_response:true }...: avg=8.58ms   min=6.65ms  med=7.67ms   max=18.13ms p(90)=10.97ms  p(95)=16.78ms
+     http_req_failed................: 0.00%   ✓ 0       ✗ 60
+     http_req_receiving.............: avg=7.95ms   min=5.75ms  med=7.08ms   max=17.46ms p(90)=10.42ms  p(95)=16.23ms
+     http_req_sending...............: avg=8.81µs   min=0s      med=0s       max=528.9µs p(90)=0s       p(95)=0s
+     http_req_tls_handshaking.......: avg=0s       min=0s      med=0s       max=0s      p(90)=0s       p(95)=0s
+     http_req_waiting...............: avg=614.14µs min=504.7µs med=531.25µs max=1.49ms  p(90)=700.57µs p(95)=1.08ms
+     http_reqs......................: 60      0.99044/s
+     iteration_duration.............: avg=1s       min=1s      med=1s       max=1.02s   p(90)=1.01s    p(95)=1.01s
+     iterations.....................: 60      0.99044/s
+     vus............................: 1       min=1     max=1
+
+running (1m00.6s), 0/1 VUs, 60 complete and 0 interrupted iterations
+default ✓ [======================================] 1 VUs  1m0s
