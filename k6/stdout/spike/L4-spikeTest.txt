@@ -1,0 +1,40 @@
+
+          /\      |‾‾| /‾‾/   /‾‾/
+     /\  /  \     |  |/  /   /  /
+    /  \/    \    |     (   /   ‾‾\
+   /          \   |  |\  \ |  (‾)  |
+  / __________ \  |__| \__\ \_____/ .io
+
+  execution: local
+     script: spikeTest.js
+     output: csv (csv/L4-spikeTest.csv)
+
+  scenarios: (100.00%) 1 scenario, 1000 max VUs, 9m40s max duration (incl. graceful stop):
+           * spike: Up to 140.00 iterations/s for 7m40s over 7 stages (maxVUs: 1000, gracefulStop: 2m0s)
+
+INFO[0461] [k6-reporter v2.3.0] Generating HTML summary report  source=console
+     ✗ status is 200
+      ↳  92% — ✓ 26967 / ✗ 2232
+     ✗ content type is text/html
+      ↳  92% — ✓ 26967 / ✗ 2232
+     ✓ verify homepage text
+
+     checks.........................: 94.77% ✓ 80901     ✗ 4464
+     data_received..................: 3.2 GB 6.9 MB/s
+     data_sent......................: 2.5 MB 5.5 kB/s
+     http_req_blocked...............: avg=20.86µs min=0s     med=0s     max=1.77ms  p(90)=0s     p(95)=0s
+     http_req_connecting............: avg=16.87µs min=0s     med=0s     max=1.59ms  p(90)=0s     p(95)=0s
+     http_req_duration..............: avg=4.66s   min=2.09ms med=6.11ms max=1m0s    p(90)=9.71ms p(95)=1m0s
+       { expected_response:true }...: avg=81.08ms min=2.09ms med=5.93ms max=8.06s   p(90)=6.89ms p(95)=7.37ms
+     http_req_failed................: 7.64%  ✓ 2232      ✗ 26967
+     http_req_receiving.............: avg=1.35ms  min=0s     med=1.05ms max=24ms    p(90)=2.1ms  p(95)=2.62ms
+     http_req_sending...............: avg=8.14µs  min=0s     med=0s     max=805.1µs p(90)=0s     p(95)=0s
+     http_req_tls_handshaking.......: avg=0s      min=0s     med=0s     max=0s      p(90)=0s     p(95)=0s
+     http_req_waiting...............: avg=4.66s   min=1.54ms med=4.75ms max=1m0s    p(90)=7.34ms p(95)=1m0s
+     http_reqs......................: 29199  63.474441/s
+     iteration_duration.............: avg=4.66s   min=2.17ms med=6.28ms max=1m0s    p(90)=9.87ms p(95)=1m0s
+     iterations.....................: 29199  63.474441/s
+     vus............................: 1000   min=1000    max=1000
+
+running (7m40.0s), 0000/1000 VUs, 29199 complete and 0 interrupted iterations
+spike ✓ [======================================] 0000/1000 VUs  7m40s  000.71 iters/s
