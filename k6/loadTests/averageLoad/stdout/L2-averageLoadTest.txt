@@ -1,0 +1,38 @@
+
+          /\      |‾‾| /‾‾/   /‾‾/
+     /\  /  \     |  |/  /   /  /
+    /  \/    \    |     (   /   ‾‾\
+   /          \   |  |\  \ |  (‾)  |
+  / __________ \  |__| \__\ \_____/ .io
+
+  execution: local
+     script: averageLoadTest.js
+     output: csv (csv/L2-averageLoadTest.csv)
+
+  scenarios: (100.00%) 1 scenario, 100 max VUs, 40m30s max duration (incl. graceful stop):
+           * default: Up to 100 looping VUs for 40m0s over 3 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+INFO[2401] [k6-reporter v2.3.0] Generating HTML summary report  source=console
+     ✓ status is 200
+     ✓ content type is text/html
+     ✓ verify homepage text
+
+     checks.........................: 100.00% ✓ 502578    ✗ 0
+     data_received..................: 20 GB   8.3 MB/s
+     data_sent......................: 14 MB   6.0 kB/s
+     http_req_blocked...............: avg=7.02µs   min=0s       med=0s       max=6.81ms   p(90)=0s       p(95)=0s
+     http_req_connecting............: avg=4.3µs    min=0s       med=0s       max=6.81ms   p(90)=0s       p(95)=0s
+     http_req_duration..............: avg=249.83ms min=157.67ms med=255.1ms  max=339.07ms p(90)=266.1ms  p(95)=271.13ms
+       { expected_response:true }...: avg=249.83ms min=157.67ms med=255.1ms  max=339.07ms p(90)=266.1ms  p(95)=271.13ms
+     http_req_failed................: 0.00%   ✓ 0         ✗ 167526
+     http_req_receiving.............: avg=1.45ms   min=0s       med=1.56ms   max=26.97ms  p(90)=2.11ms   p(95)=2.24ms
+     http_req_sending...............: avg=9.28µs   min=0s       med=0s       max=1.63ms   p(90)=0s       p(95)=0s
+     http_req_tls_handshaking.......: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s
+     http_req_waiting...............: avg=248.37ms min=157.16ms med=253.62ms max=337.04ms p(90)=264.58ms p(95)=269.6ms
+     http_reqs......................: 167526  69.769101/s
+     iteration_duration.............: avg=1.25s    min=1.16s    med=1.25s    max=1.34s    p(90)=1.27s    p(95)=1.27s
+     iterations.....................: 167526  69.769101/s
+     vus............................: 1       min=1       max=100
+
+running (40m01.1s), 000/100 VUs, 167526 complete and 0 interrupted iterations
+default ✓ [======================================] 000/100 VUs  40m0s
