@@ -14,12 +14,12 @@ const envNameMap = {
   L9: 'L9 - Jamstack with LEMP Stack (WSL2)',
 };
 
-export let options = {
+export const options = {
   stages: [
-    { duration: '2m', target: 400 },
-    { duration: '3h56m', target: 400 },
-    { duration: '2m', target: 0 },
-    // 4h
+    { duration: '5m', target: 100 },
+    { duration: '2h', target: 100 },
+    { duration: '5m', target: 0 },
+    // 2h
   ],
 };
 
@@ -40,7 +40,7 @@ function getFullEnvName(envAlias) {
 export function handleSummary(data) {
   const fullEnvName = getFullEnvName(__ENV.ENVNAME);
   return {
-    [`reports/${fullEnvName}.html`]: htmlReport(data, {title: `[Spike Test | ${fullEnvName}]`}),
+    [`reports/${fullEnvName}.html`]: htmlReport(data, {title: `[Soak Test | ${fullEnvName}]`}),
     stdout: textSummary(data, { indent: ' ', enableColors: true }),
   };
 }

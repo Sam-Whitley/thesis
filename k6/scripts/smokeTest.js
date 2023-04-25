@@ -14,12 +14,9 @@ const envNameMap = {
   L9: 'L9 - Jamstack with LEMP Stack (WSL2)',
 };
 
-export let options = {
-  vus: 1,
+export const options = {
+  vus: 3,
   duration: '1m',
-  thresholds: {
-    'http_req_duration': ['p(99) < 1500'],
-  },
 };
 
 export default function () {

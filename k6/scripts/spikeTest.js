@@ -15,24 +15,11 @@ const envNameMap = {
 };
 
 export const options = {
-  scenarios: {
-    spike: {
-      executor: 'ramping-arrival-rate',
-      preAllocatedVUs: 1000,
-      timeUnit: '1s',
-      stages: [
-        { duration: '10s', target: 10 },
-        { duration: '1m', target: 10 },
-        { duration: '10s', target: 140 },
-        { duration: '3m', target: 140 },
-        { duration: '10s', target: 10 },
-        { duration: '3m', target: 10 },
-        { duration: '10s', target: 0 },
-        // 7m40s
-      ],
-      gracefulStop: '2m',
-    },
-  },
+  stages: [
+    { duration: '2m', target: 2000 },
+    { duration: '1m', target: 0 },
+    // 3m
+  ],
 };
 
 export default function () {
@@ -42,6 +29,7 @@ export default function () {
     'content type is text/html': (r) => r.headers['Content-Type'].includes('text/html'),
     'verify homepage text': (r) => r.body.includes('Lorem ipsum dolor'),
   });
+  sleep(1);
 }
 
 function getFullEnvName(envAlias) {
