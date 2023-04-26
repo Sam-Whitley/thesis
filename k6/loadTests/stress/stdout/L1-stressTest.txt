@@ -1,0 +1,40 @@
+
+          /\      |‾‾| /‾‾/   /‾‾/
+     /\  /  \     |  |/  /   /  /
+    /  \/    \    |     (   /   ‾‾\
+   /          \   |  |\  \ |  (‾)  |
+  / __________ \  |__| \__\ \_____/ .io
+
+  execution: local
+     script: stressTest.js
+     output: csv (csv/L1-stressTest.csv)
+
+  scenarios: (100.00%) 1 scenario, 200 max VUs, 45m30s max duration (incl. graceful stop):
+           * default: Up to 200 looping VUs for 45m0s over 3 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+INFO[2701] [k6-reporter v2.3.0] Generating HTML summary report  source=console
+     ✗ status is 200
+      ↳  69% — ✓ 79006 / ✗ 34728
+     ✓ content type is text/html
+     ✗ verify homepage text
+      ↳  69% — ✓ 79006 / ✗ 34728
+
+     checks.........................: 79.64% ✓ 271746   ✗ 69456
+     data_received..................: 9.4 GB 3.5 MB/s
+     data_sent......................: 9.2 MB 3.4 kB/s
+     http_req_blocked...............: avg=299.28µs min=0s       med=0s     max=19.67ms  p(90)=921.5µs  p(95)=1.5ms
+     http_req_connecting............: avg=275.54µs min=0s       med=0s     max=19.67ms  p(90)=836.7µs  p(95)=1.47ms
+     http_req_duration..............: avg=2.95s    min=505.7µs  med=4.03s  max=6.7s     p(90)=5.39s    p(95)=5.52s
+       { expected_response:true }...: avg=4.25s    min=159.06ms med=4.95s  max=6.7s     p(90)=5.46s    p(95)=5.58s
+     http_req_failed................: 30.53% ✓ 34728    ✗ 79006
+     http_req_receiving.............: avg=28.94ms  min=0s       med=7.99ms max=1.25s    p(90)=104.31ms p(95)=149.65ms
+     http_req_sending...............: avg=185.93µs min=0s       med=0s     max=560.37ms p(90)=0s       p(95)=212.6µs
+     http_req_tls_handshaking.......: avg=0s       min=0s       med=0s     max=0s       p(90)=0s       p(95)=0s
+     http_req_waiting...............: avg=2.93s    min=504.4µs  med=3.98s  max=6.41s    p(90)=5.35s    p(95)=5.47s
+     http_reqs......................: 113734 42.11393/s
+     iteration_duration.............: avg=3.96s    min=1s       med=5.03s  max=7.7s     p(90)=6.4s     p(95)=6.52s
+     iterations.....................: 113734 42.11393/s
+     vus............................: 1      min=1      max=200
+
+running (45m00.6s), 000/200 VUs, 113734 complete and 0 interrupted iterations
+default ✓ [======================================] 000/200 VUs  45m0s
