@@ -1,13 +1,7 @@
 # A Quantitative Study on the Performance and Scalability Of Jamstack in Comparison to a Monolithic Web Architecture
 ## Environments
 
-<details id="test"><summary>Test</summary>
-
-[<span id="test2">hi</span>](https://hello.ca)
-
-</details>
-
-<details><summary><a href="#L1">L1 - WordPress with LAMP Stack (VM)</a></summary>
+<details><summary>L1 - WordPress with LAMP Stack (VM)</summary>
 
   - Sitespeed.io
     - [Desktop](https://sam-whitley.github.io/thesis/sitespeed/desktop/L1/index.html)
