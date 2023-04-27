@@ -1,7 +1,7 @@
 # A Quantitative Study on the Performance and Scalability Of Jamstack in Comparison to a Monolithic Web Architecture
 ## Environments
 
-<details id="test"><summary>Test/summary>
+<details id="test"><summary>Test</summary>
 
 [<span id="test2">hi</span>](https://hello.ca)
 
