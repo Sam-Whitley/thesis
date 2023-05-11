@@ -34,7 +34,7 @@
     - [Stress Test](https://sam-whitley.github.io/thesis/k6/loadTests/stress/reports/L4)
     - [Spike Test](https://sam-whitley.github.io/thesis/k6/loadTests/spike/reports/L4)
 </details>
-<details><summary>L5 - Jamstack with LAMP Stack (WSL2)</summary>
+<details><summary>L5 - Jamstack with LAMP Stack (VM)</summary>
   
   - Sitespeed.io
     - [Desktop](https://sam-whitley.github.io/thesis/sitespeed/desktop/L5/index.html)
