@@ -20,7 +20,7 @@ export const options = {
 };
 
 export default function () {
-  const res = http.get('http://${__ENV.IP_ADDRESS}');
+  const res = http.get(`http://${__ENV.IP_ADDRESS}`);
   check(res, {
     'status is 200': (r) => r.status === 200,
     'content type is text/html': (r) => r.headers['Content-Type'].includes('text/html'),
@@ -29,12 +29,14 @@ export default function () {
   sleep(1);
 }
 
-function getFullEnvName(envAlias) { return envNameMap[envAlias] || envAlias; }
+function getFullEnvName(envAlias) { 
+  return envNameMap[envAlias] || envAlias; 
+}
 
 export function handleSummary(data) {
   const fullEnvName = getFullEnvName(__ENV.ENVNAME);
   return {
-    ['reports/${fullEnvName}.html']: htmlReport(data, { title: '[Smoke Test | ${fullEnvName}]' }),
+    [`reports/${fullEnvName}.html`]: htmlReport(data, { title: `[Smoke Test | ${fullEnvName}]`}),
     stdout: textSummary(data, { indent: ' ', enableColors: true }),
   };
 }
