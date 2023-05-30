@@ -92,6 +92,3 @@
 
 ## Website
 - [Website used for testing](https://sam-whitley.github.io/thesis/website/index.html)
-
-## Figures and Tables WIP
-- WIP
