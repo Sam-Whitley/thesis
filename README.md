@@ -1,7 +1,7 @@
 # The Performance and Scalability Of Jamstack in Comparison to a Monolithic Web Architecture (WordPress)
 ## Environments
 
-<details><summary>L1 - WordPress with LAMP Stack (VM)</summary>
+<details><summary>WordPress (LAMP VM)</summary>
 
   - Sitespeed.io
     - [Desktop](https://sam-whitley.github.io/thesis/sitespeed/desktop/L1/index.html)
@@ -12,7 +12,7 @@
     - [Stress Test](https://sam-whitley.github.io/thesis/k6/loadTests/stress/reports/L1)
     - [Spike Test](https://sam-whitley.github.io/thesis/k6/loadTests/spike/reports/L1)
 </details>
-<details><summary>L6 - WordPress with LEMP Stack (VM)</summary>
+<details><summary>WordPress (LEMP VM)</summary>
 
   - Sitespeed.io
     - [Desktop](https://sam-whitley.github.io/thesis/sitespeed/desktop/L6/index.html)
@@ -23,7 +23,7 @@
     - [Stress Test](https://sam-whitley.github.io/thesis/k6/loadTests/stress/reports/L6)
     - [Spike Test](https://sam-whitley.github.io/thesis/k6/loadTests/spike/reports/L6)
 </details>
-<details><summary>L2 - WordPress with LAMP Stack (WSL2)</summary>
+<details><summary>WordPress (LAMP WSL2)</summary>
 
   - Sitespeed.io
     - [Desktop](https://sam-whitley.github.io/thesis/sitespeed/desktop/L2/index.html)
@@ -34,7 +34,7 @@
     - [Stress Test](https://sam-whitley.github.io/thesis/k6/loadTests/stress/reports/L2)
     - [Spike Test](https://sam-whitley.github.io/thesis/k6/loadTests/spike/reports/L2)
 </details>
-<details><summary>L8 - WordPress with LEMP Stack (WSL2)</summary>
+<details><summary>WordPress (LEMP WSL2)</summary>
 
   - Sitespeed.io
     - [Desktop](https://sam-whitley.github.io/thesis/sitespeed/desktop/L8/index.html)
@@ -45,7 +45,7 @@
     - [Stress Test](https://sam-whitley.github.io/thesis/k6/loadTests/stress/reports/L8)
     - [Spike Test](https://sam-whitley.github.io/thesis/k6/loadTests/spike/reports/L8)
 </details>
-<details><summary>L5 - Jamstack with LAMP Stack (VM)</summary>
+<details><summary>Jamstack (LAMP VM)</summary>
   
   - Sitespeed.io
     - [Desktop](https://sam-whitley.github.io/thesis/sitespeed/desktop/L5/index.html)
@@ -56,7 +56,7 @@
     - [Stress Test](https://sam-whitley.github.io/thesis/k6/loadTests/stress/reports/L5)
     - [Spike Test](https://sam-whitley.github.io/thesis/k6/loadTests/spike/reports/L5)
 </details>
-<details><summary>L7 - Jamstack with LEMP Stack (VM)</summary>
+<details><summary>Jamstack (LEMP VM)</summary>
 
   - Sitespeed.io
     - [Desktop](https://sam-whitley.github.io/thesis/sitespeed/desktop/L7/index.html)
@@ -67,7 +67,7 @@
     - [Stress Test](https://sam-whitley.github.io/thesis/k6/loadTests/stress/reports/L7)
     - [Spike Test](https://sam-whitley.github.io/thesis/k6/loadTests/spike/reports/L7)
 </details>
-<details><summary>L4 - Jamstack with LAMP Stack (WSL2)</summary>
+<details><summary>Jamstack (LAMP WSL2)</summary>
 
   - Sitespeed.io
     - [Desktop](https://sam-whitley.github.io/thesis/sitespeed/desktop/L4/index.html)
@@ -78,7 +78,7 @@
     - [Stress Test](https://sam-whitley.github.io/thesis/k6/loadTests/stress/reports/L4)
     - [Spike Test](https://sam-whitley.github.io/thesis/k6/loadTests/spike/reports/L4)
 </details>
-<details><summary>L9 - Jamstack with LEMP Stack (WSL2)</summary>
+<details><summary>Jamstack (LEMP WSL2)</summary>
 
   - Sitespeed.io
     - [Desktop](https://sam-whitley.github.io/thesis/sitespeed/desktop/L9/index.html)
